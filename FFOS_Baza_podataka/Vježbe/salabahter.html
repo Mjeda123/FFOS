@@ -1,0 +1,72 @@
+<!--
+    završetak naredbe je ;
+    provedba naredbe F5
+    komentiranje naredbe ctrl + k + c
+    odkomentiranje naredbe ctrl + k + u
+
+    Pazi da je svaka prethodna naredba zakomentirana
+    Prilikom izrade baze ili tablica uvijek osvježite baze ili tablice 
+        - ako ih ne vidite na popisu sa lijeve strane, niste dobro proveli naredbe
+-->
+<!--POZICIONIRANJE NA MASTER BAZU-->
+use master;
+
+<!--IZRADA NOVE BAZE I POZICIONIRANJE NA NJU-->
+create database iprezime_n;
+use iprezime_n;
+
+<!--IZRADA TABLICA-->
+<!--uvijek se prvo izrađuju tablice čiji primarni ključ nigdje nije vanjski ključ-->
+<!--zarez ne ide iza zadnje naredbe-->
+create table autor(
+    sifra           int not null primary key, 
+    ime             varchar(50) not null,
+    prezime         varchar(50) not null,
+    datumrodenja    datetime 
+);
+
+create table izdavac(
+    sifra       int not null primary key,
+    naziv       varchar(50) not null,
+    aktivan     bit
+);
+
+create table mjesto(
+    sifra           int not null primary key,
+    naziv           varchar(50) not null,
+    postanskibroj   varchar(10),
+    drzava          varchar(50)
+);
+
+create table katalog(
+    sifra           int not null primary key,
+    autor           int references autor(sifra),
+    naslov          varchar(50) not null,
+    izdavac         int references izdavac(sifra),
+    mjesto          int references mjesto(sifra)
+)
+
+<!--ako želite da nešto bude ponuđeno po defaultu-->
+primjer države
+drzava      varchar(50) default 'Hrvatska';
+
+<!--ako želite provjeriti da li nešto ima x broj znakova-->
+primjer naslov knjige
+naslov      varchar(50) not null check(len(naslov)>3); <!--naslov mora imati minimalno 3+ znaka-->
+
+<!--indeks-->
+create index naziv_index on katalog(naslov);
+
+<!--brisanje tablice-->
+drop table nazivtablice;
+
+<!--drop baze podataka-->
+drop database iprezime_n;
+
+<!--IZMJENA (ALTER NAREDBA) TABLICA
+-->
+<!--prvo se definira koja se tablica mijenja, zatim koja se kolona mijenja te se postavlja vrijednost koja se želi
+dodati ili promijeniti-->
+PRIMJER:
+alter table mjesto alter column sifra int not null;
+alter table autor add primary key (sifra);

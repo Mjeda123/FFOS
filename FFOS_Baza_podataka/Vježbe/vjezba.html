@@ -1,0 +1,36 @@
+drop database amjeda_22_1;
+create database amjeda_22_1 character set utf8 collate =
+utf8_general_ci;
+use amjeda_22_1;
+#Kreiranje tablica
+create table autor(
+ sifra int not null primary key auto_increment,
+ ime varchar(50) not null,
+ prezime varchar(50) not null,
+ datumrodenja datetime
+) engine=innodb;
+create table izdavac(
+ sifra int not null primary key auto_increment,
+ naziv varchar(50) not null,
+ aktivan boolean
+) engine=innodb;
+create table mjesto(
+ sifra int not null primary key auto_increment,
+ naziv varchar(50) not null,
+ postanskibroj varchar(10),
+ drzava varchar(50) default 'hrvatska'
+) engine=innodb;
+create table katalog(
+ sifra int not null primary key auto_increment,
+ autor int,
+ naslov varchar(50) not null,
+ izdavac int,
+ mjesto int
+) engine=innodb;
+#Definiranje vanjskih ključeva u bazi
+alter table katalog add foreign key (autor) references
+autor(sifra);
+alter table katalog add foreign key (izdavac) references
+izdavac (sifra);
+alter table katalog add foreign key (mjesto) references mjesto
+(sifra);
