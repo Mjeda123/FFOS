@@ -1,0 +1,56 @@
+body{
+    background-image: url("kj.jpg");
+}
+
+
+fieldset{
+    background-color: lightsalmon;
+    text-align: center;
+    border-width: 20px;
+}
+details{
+    background-color: brown;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: white
+}
+
+.tekst{
+    text-align: center;
+}
+
+.gumb{
+    text-align: center;
+}
+
+.kraj{
+    text-align: center;
+}
+
+@media print{
+    h1{page-break-before: initial;}
+}
+
+@media print{
+    pre, blockquote {page-break-inside: initial;}
+}
+
+@media print{
+    footer {page-break-after: initial;}
+}
+
+div{
+    orphans: initial;
+    line-height: initial;
+}
+
+ruby{
+    ruby-align: initial;
+    ruby-position: initial;
+}
+
+
+

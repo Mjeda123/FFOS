@@ -1,0 +1,39 @@
+body{
+    background-color: lightblue;
+}
+
+section{
+    display: grid;
+    grid-template-areas: 
+    "....     .....     ...."
+    "kip      ip        p"
+    "kip      ip        p"
+    "kip      ip        p"
+    "stu      bu        cr";
+    grid-gap: 2rem;
+}
+
+.kip{
+    grid-area: kip;
+}
+
+.ip{
+    grid-area: ip;
+}
+
+.p{
+    grid-area: p;
+}
+
+.bu{
+    grid-area: bu;
+}
+
+.cr{
+    grid-area: cr;
+}
+
+.stu{
+    grid-area: stu;
+}
+
