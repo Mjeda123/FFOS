@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(157, 219, 243);
+}
+
+div{
+    background-color: rgb(14, 122, 99);
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+
+@media (min-width:  800px){
+    body{
+        color: black;
+    }
+    
+    article{
+        grid-template-areas: 
+        "......."
+        "  ita  "
+        "  dig  ";
+    }
+}
+
+
+article{
+    display: grid;
+    grid-template-areas: 
+    "..."
+    "ita"
+    "dig";
+    
+    
+}
+
+.dig{grid-area: dig;}
+.ita{grid-area: ita;}

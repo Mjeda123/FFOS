@@ -1,0 +1,51 @@
+fieldset{
+    background-color: cornsilk;
+    width: 70%;
+    margin-bottom: 10%;
+}
+
+
+
+div{
+    background-color: rgb(14, 122, 99);
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+@media (min-width:  800px){
+    body{
+        color: black;
+    }
+    
+    article{
+        grid-template-areas: 
+        "  unos  "
+        "  dan   "
+        "  lijep ";
+    }
+}
+
+article{
+    display: grid;
+    grid-template-areas: 
+    "..."
+    "ita"
+    "dig";
+    
+    
+}
+
+.dig{grid-area: dig;}
+.ita{grid-area: ita;}
+
+body{
+    background-color: rgb(22, 116, 231);
+}
+
+div{
+    background-color: rgb(198, 22, 221);
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+}

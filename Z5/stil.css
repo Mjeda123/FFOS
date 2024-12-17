@@ -1,0 +1,63 @@
+section{
+    display: grid;
+    grid-template-areas: 
+    "pjesme          band           mp3"
+    "prvapjesma      ....         tekst"
+    "drugapjesma     trecapjesma   logo"
+    "...........     ...........   foto";
+    grid-gap: 2rem;
+}
+
+.band{
+    color: orangered;
+    grid-area: band;
+}
+
+table{
+    table-layout: initial;
+    border-collapse: initial;
+    border-spacing: initial;
+}
+
+.tekst{
+    background-color: orangered;
+    border-radius: 4rem;
+    border: initial;
+    padding: 2rem;
+    grid-area: tekst;
+    appearance: none;
+    box-sizing: initial;
+    box-shadow: initial;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.pjesme{
+    color: orangered;
+    grid-area: pjesme;
+}
+
+.prvapjesma{
+    grid-area: prvapjesma;
+}
+
+.drugapjesma{
+    grid-area: drugapjesma;
+}
+
+.trecapjesma{
+    grid-area: trecapjesma;
+}
+
+.mp3{
+    grid-area: mp3;
+}
+
+.logo{
+    grid-area: logo;
+}
+
+.foto{
+    grid-area: foto;
+}
+

@@ -1,0 +1,21 @@
+body{
+    background-color: lightblue;
+}
+
+section{
+    display: grid;
+    grid-template-areas: 
+    ".... ...."
+    "pa     rk"
+    "...   ...";
+    grid-gap: 2rem;
+}
+
+.pa{
+    grid-area: pa;
+}
+
+.rk{
+    grid-area: rk;
+}
+

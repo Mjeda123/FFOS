@@ -1,0 +1,5 @@
+body{
+    /* Slika preuzeta s https://bs.wikipedia.org/wiki/Osijek//wp-content/uploads/2020/Z7/drava*/
+    background: lightblue url(drava.jpg) no-repeat;
+}
+

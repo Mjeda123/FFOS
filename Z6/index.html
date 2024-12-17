@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prijava ispita</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+    <section>
+        <form action="prijava.php">
+            <fieldset>
+                <legend>Traženi podaci</legend>
+                <div class="prijavastudenta">
+                    <h1>Molim vas da ispunite podatke za prijavu ispita</h1>
+                    <label for="korisnik_naziv">Korisnik</label>
+                    <input type="text" id="korisnik_naziv">
+                    <label for="zaporka">Lozinka</label>
+                    <input type="password" name="zaporka" id="zaporka">
+                </div>
+                <div class="kolegiji">
+                    <h3>Izaberite kolegij,rok i izlaske na ispit</h3>
+                    <label for="kolegij_naziv">Kolegij</label>
+                    <select name="naziv" id="kolegij_naziv">
+                        <option value="oi">Organizacija informacija I.</option>
+                        <option value="skic">Sociologija knjige i čitanja I.</option>
+                        <option value="opiu">Organizacija i poslovanje inf. ustanova</option>
+                        <option value="oms">Oblikovanje mrežnih stranica</option>
+                        <option value="bp">Baza podataka I.</option>
+                    </select>
+                    <br />
+                    Rokovi
+                    <select>
+                    <optgroup label="red">
+                        <option value="zim">Zima</option>
+                        <option value="ljet">Ljeto</option>
+                        <option value="jes">Jesen</option>
+                    </optgroup>
+                    <optgroup label="izvan">
+                        <option value="prvi_sem">Sredinom 10. mjeseca</option>
+                        <option value="drugi_sem">Sredinom 4. mjeseca</option>
+                    </optgroup>
+                    </select>
+                </div>
+                <br />
+                <div class="pokusaji">Izlazak
+                    <input list="pokusaji" name="pokusajiputa">
+                    <datalist id="pokusaji">
+                        <option value="Prvi">
+                        <option value="Drug">
+                        <option value="Treći">
+                        <option value="Četvrti">
+                        <option value="Peti">
+                    </datalist>
+                    <input type="submit" value="Prijava">
+                    <output></output>
+                    <keygen disabled>
+                </div>
+            </fieldset>
+            <details>
+                <summary>Mjere</summary>
+                <p>Čuvajte se u budućnosti</p>
+            </details>
+            <div>
+            <p>U slučaju nemogućnosti pristupa ispita:</p>
+            </div>
+            <div class="tekst">
+            <textarea name="slucaj" id="slucaj" cols="50" rows="20"></textarea>
+            </div>
+            <div class="gumb">
+            <input type="submit" value="Posalji">
+            </div>
+            <progress value="55" max="110"></progress>
+            <div class="kraj">
+            <button type="button" onclick="alert('završili ste prijavu ispita!')">Kraj</button>
+            </div>
+            <meter value="1.0">64%</meter>
+            
+            
+            
+        </form>
+        <div id="pad">Andrej Mjeda</div>
+    </section>
+    
+</body>
+</html>

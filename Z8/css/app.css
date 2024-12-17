@@ -1,0 +1,41 @@
+body{
+    background-color: lightgray;
+}
+
+div{
+    background-color: gray;
+    padding: 5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+@media (min-width:  800px){
+    body{
+        color: black;
+    }
+    
+    article{
+        grid-template-areas: 
+        "......."
+        "  nas  "
+        "  slik ";
+    }
+}
+
+
+article{
+    display: grid;
+    grid-template-areas: 
+    "..."
+    "nas"
+    "slik";
+    
+    
+}
+
+.nas{grid-area: nas;}
+.slik{grid-area: slik;}
+
+

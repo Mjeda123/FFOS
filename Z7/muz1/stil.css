@@ -1,0 +1,25 @@
+body{
+    background-color: lightblue;
+}
+
+section{
+    display: grid;
+    grid-template-areas: 
+    ".....  ...  ...."
+    "muzej  ...  muze"
+    ".....  muz  ....";
+    grid-gap: 2rem;
+}
+
+.muzej{
+    grid-area: muzej;
+}
+
+.muze{
+    grid-area: muze;
+}
+
+.muz{
+    grid-area: muz;
+}
+
