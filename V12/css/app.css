@@ -1,0 +1,19 @@
+.callout{
+    margin: 20px;
+    background-color: rgb(77, 77, 192);
+    color: white;
+    text-align: center;
+}
+
+
+
+.top-bar{
+    background-color: black;
+    color: white;
+ 
+}
+
+.menu-text{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,30 @@
+div{
+    background-color: gray;
+    padding: 30rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* mobile first */
+article{
+    display: grid;
+    grid-template-areas: 
+    "a b"
+    "c c"
+    "d d";
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+.a{grid-area: a;}
+.b{grid-area: b;}
+.c{grid-area: c;}
+.d{grid-area: d;}
+
+@media (min-width: 800px){
+    article{
+        grid-template-areas: 
+        "a b b b"
+        "c c d d";
+    }
+}
