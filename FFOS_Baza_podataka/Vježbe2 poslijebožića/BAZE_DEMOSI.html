@@ -1,0 +1,224 @@
+select
+    concat(
+        left(ime,1),
+        left(prezime,1)
+    ) from autor;
+
+    za inicijale
+__________________________________________________________________________________
+
+    select now();
+
+    pokazuje trenutno vrijeme u trenutku pozivanja
+
+    select upper(ime) from autor;
+    select lower(ime,prezime) from autor;
+
+    provjeriti
+
+    select sqrt(9);
+square root
+
+    select pow(2,3);
+
+    select datediff(now(),'2001-09-29 05:33:00');
+    koliko smo dana stari
+
+    select datediff(now(),'2001-09-29 05:33:00')*24*60*60;
+    moje srce kuca toliko puta od kada sam rođen do dana današnjeg
+
+
+
+    !!!!!klk --> 2 primjera funkcija koje su rađene na satu i 1 koji je iz materijala!!!!!!
+
+ __________________________________________________________________________________
+
+    za kreiranje vlastite funkcije potrebno više ;, ali se oni mogu definirati kao delimiter $$ ili bb ili tt koji služi kao razdvojnik
+    treba kopirati od delimitera do delimitera
+
+    DELIMITER $$
+__________________________________________________________________________________
+    !!!!funkcija s 1 parametrom!!!
+
+
+CREATE FUNCTION vrijeme() RETURNS varchar(255)
+begin
+return DATE_FORMAT(now(), '%W %M %Y');
+end;
+$$
+DELIMITER ;
+
+naredba završava sa $$ na redu 46, a delimiter iz 47. reda govori da se treba vratiti na ; (točku-zarez)
+
+
+__________________________________________________________________________________
+!!!!funkcija s 2 parametra!!!!
+
+DELIMITER $$
+CREATE FUNCTION email(ime varchar(50)) RETURNS varchar(255)
+begin
+return lower(concat(ime,'@ffos.hr'));
+end;
+$$
+DELIMITER ;
+
+ta se funkcija poziva kao select email('Perica');
+isto se može i kroz mjesto select email(naziv) from mjesto;
+
+
+__________________________________________________________________________________
+!!!!!funkcija sa više parametara!!!!!
+
+DELIMITER $$
+CREATE FUNCTION generiraniemail(ime varchar(50), prezime varchar(50)) RETURNS
+varchar(255)
+begin
+return
+replace(
+replace(
+replace(
+replace(
+replace(
+lower(
+concat(
+left(ime,1),
+prezime,'@ffos.hr')
+),'š','s'),'đ','d'),'č','c'),'ć','c'),'ž','z');
+end;
+$$
+DELIMITER ;
+
+prima 2 uvjeta, i vraća varchar kao prvo slovo imena, cijelo prezime
+i pretvara dijakritičke znakove i to sve malim slovima 
+
+__________________________________________________________________________________
+
+OKIDAČI - insert update i delete
+
+za svaki select ili nešto drugo se mora zapisati tko i kada ga je proveo 
+to je mehanizam koji radi nešto kada se napravi nešto
+
+
+___________________________________________________________________________________
+prvo se kreira tablica log 
+
+create table log(
+    sifra int not null primary key auto_increment,
+    akcija varchar(50) not null,
+    vrijeme datetime not null,
+    podaci varchar(255)
+    );
+
+__________________________________________________________________________________
+
+!!!onda kreiranje okidača!!!!
+
+delimiter $$
+create trigger unos_autora after insert on autor for each row
+begin
+insert into log (akcija,vrijeme,podaci) values ('Unos
+autora',now(),concat(new.ime, ' ', new.prezime));
+end;
+$$
+delimiter ;
+
+new.ime je novi unos
+ima i onload.ime
+
+__________________________________________________________________________________
+nakon insert za autor za svaki red, onda okidač napravi unos u tablicu log
+unijet ce vrijednost za 
+
+testiranje - unos sebe kao autorainsert into autor (ime,prezime) values ('Martina','Slobođanac');
+
+__________________________________________________________________________________
+!!!!promjena autora!!!!
+
+delimiter $$
+create trigger promjena_autora after update on autor for each
+row
+begin
+insert into log (akcija,vrijeme,podaci) values ('Promjena
+autora',now(),concat(old.ime, ' ', old.prezime , ' =>
+',new.ime, ' ', new.prezime));
+end;
+$$
+delimiter ;
+
+
+__________________________________________________________________________________
+!!!!brisanje!!!!
+
+delimiter $$
+create trigger brisanje_autora after delete on autor for each
+row
+begin
+insert into log (akcija,vrijeme,podaci) values ('Brisanje
+autora',now(),concat(old.ime, ' ', old.prezime ));
+end;
+$$
+delimiter ;
+
+provedba je delete from autor where sifra=4;
+select * from autor;
+brise se iz autora, ali ne i iz log tablice (trajni digital print)
+
+
+__________________________________________________________________________________
+PROCEDURE
+da objedini više naredbi odjednom - da se provedu sve te naredbe ili niti jedna
+
+delimiter $$
+create procedure brojAutora()
+begin
+select count(*) from autor;
+end;
+$$
+delimiter ;
+
+__________________________________________________________________________________
+PROCEDURA SE POZIVA NAREDBOM call brojAutora;
+
+delimiter $$
+create procedure brojznakova()
+begin
+declare done int default false;
+declare b, broj int;
+declare cur cursor for select length(ime) from autor;
+declare continue handler for not found set done = true;
+open cur;
+set @broj=0;
+read_loop: loop
+fetch cur into b;
+set @broj=@broj+b;
+if done then
+leave read_loop;
+end if;
+select @broj ;
+end loop;
+close cur;
+end;
+$$
+delimiter ;
+
+prvo idu deklaracije varijabli, pa iteracija podataka
+
+select ime from autor;
+svi autori imaju 17 znakova ukupno
+pozove se kao call brojznakova();
+vrati 17
+
+onda insert into autor (ime,prezime) values ('Tin','Kat');
+opet call brojznakova();
+broj znakova se mijenja
+
+________________________________________________________________________________
+
+
+VJEŽBE 2:
+
+select a.*
+from status a
+inner join operator b on a.operater=b.sifra 
+where b.ime='Lora' and b.prezime='Alduk';
+

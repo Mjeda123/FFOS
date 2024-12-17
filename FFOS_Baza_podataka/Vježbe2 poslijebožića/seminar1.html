@@ -1,0 +1,324 @@
+drop database amjeda_22_seminar;
+create database amjeda_22_seminar character set utf8 collate =
+utf8_general_ci;
+use amjeda_22_seminar;
+
+create table korisnik(
+sifra int not null primary key auto_increment,
+ime varchar(50) not null,
+prezime varchar(50) not null,
+datumRodenja date not null
+) engine=innodb;
+
+create table vrsta(
+sifra int not null primary key auto_increment,
+naziv varchar(50) not null
+) engine=innodb;
+
+create table zivotinja(
+sifra int not null primary key auto_increment,
+imeZivotinje varchar(50) not null,
+porodica varchar(50) not null,
+obitavaliste varchar(50) not null
+) engine=innodb;
+
+create table park(
+sifra int not null primary key auto_increment,
+vrsta int,
+aktivnost varchar(50) not null
+) engine=innodb;
+
+create table posjeta(
+park int,
+korisnik int,
+datum date not null
+) engine=innodb;
+
+
+create table staniste(
+sifra int not null primary key auto_increment,
+zivotinja int,
+park int,
+zupanija varchar(50) not null
+) engine=innodb;
+
+show tables;
+
+alter table park add foreign key (vrsta) references
+vrsta(sifra);
+
+alter table posjeta add foreign key (park) references
+park(sifra);
+
+alter table posjeta add foreign key (korisnik) references
+korisnik(sifra);
+
+alter table staniste add foreign key (zivotinja) references
+zivotinja(sifra);
+
+alter table staniste add foreign key (park) references
+park(sifra);
+
+
+select * from information_schema.table_constraints
+where table_schema = 'amjeda_22_seminar' and constraint_type =
+'FOREIGN KEY';
+
+
+insert into zivotinja (sifra, imeZivotinje, porodica, obitavaliste)
+values (1,'Ris', 'sisavac', 'šume');
+insert into zivotinja (sifra, imeZivotinje, porodica, obitavaliste)
+values (2,'Planinski žutokrug', 'gmazovi', 'planine');
+insert into zivotinja (sifra, imeZivotinje, porodica, obitavaliste)
+values (3,'Visovački glavočić', 'zrakoperke', 'jezero Visovac');
+insert into zivotinja (sifra, imeZivotinje, porodica, obitavaliste)
+values (4,'Zelena krastača', 'vodozemci', 'more');
+insert into zivotinja (sifra, imeZivotinje, porodica, obitavaliste)
+values (5,'Škanjac osaš', 'ptice', 'šume');
+insert into zivotinja (sifra, imeZivotinje, porodica, obitavaliste)
+values (6,'Barska kornjača', 'gmazovi', 'more');
+insert into zivotinja (sifra, imeZivotinje, porodica, obitavaliste)
+values (7,'Krška gušterica', 'gmazovi', 'šume');
+insert into zivotinja (sifra, imeZivotinje, porodica, obitavaliste)
+values (8,'Dinarski voluhar', 'sisavac', 'planine');
+insert into zivotinja (sifra, imeZivotinje, porodica, obitavaliste)
+values (9,'Orao štekavac', 'ptice', 'šume');
+insert into zivotinja (sifra, imeZivotinje, porodica, obitavaliste)
+values (10,'Veliki potkovnjak', 'sisavac', 'špilje');
+insert into zivotinja (sifra, imeZivotinje, porodica, obitavaliste)
+values (11,'Prstac', 'mekušci', 'more');
+insert into zivotinja (sifra, imeZivotinje, porodica, obitavaliste)
+values (12,'Crni daždevnjak', 'vodozemac', 'planine');
+insert into zivotinja (sifra, imeZivotinje, porodica, obitavaliste)
+values (13,'Vuk', 'sisavac', 'šume');
+insert into zivotinja (sifra, imeZivotinje, porodica, obitavaliste)
+values (14,'Jegulja', 'zrakoperke', 'jezera');
+insert into zivotinja (sifra, imeZivotinje, porodica, obitavaliste)
+values (15,'Bijele rode', 'ptice', 'sela');
+insert into zivotinja (sifra, imeZivotinje, porodica, obitavaliste)
+values (16,'Obična čančara', 'gmazovi', 'planine');
+insert into zivotinja (sifra, imeZivotinje, porodica, obitavaliste)
+values (17,'Divokoza', 'sisavac', 'planine');
+insert into zivotinja (sifra, imeZivotinje, porodica, obitavaliste)
+values (18,'Lasica', 'sisavac', 'šume');
+insert into zivotinja (sifra, imeZivotinje, porodica, obitavaliste)
+values (19,'Sredozemni galeb', 'ptice', 'otoci');
+insert into zivotinja (sifra, imeZivotinje, porodica, obitavaliste)
+values (20,'Sova jastrebača', 'ptice', 'šume');
+
+select * from zivotinja;
+
+insert into vrsta (sifra, naziv)
+values (1,'Nacionalni park Risnjak');
+insert into vrsta (sifra, naziv)
+values (2,'Nacionalni park Paklenica');
+insert into vrsta (sifra, naziv)
+values (3,'Nacionalni park Krka');
+insert into vrsta (sifra, naziv)
+values (4,'Nacionalni park Kornati');
+insert into vrsta (sifra, naziv)
+values (5,'Nacionalni park Plitvička jezera');
+insert into vrsta (sifra, naziv)
+values (6,'Nacionalni park Brijuni');
+insert into vrsta (sifra, naziv)
+values (7,'Nacionalni park Mljet');
+insert into vrsta (sifra, naziv)
+values (8,'Nacionalni park Sjeverni Velebit');
+insert into vrsta (sifra, naziv)
+values (9,'Park prirode Kopački rit');
+insert into vrsta (sifra, naziv)
+values (10,'Park prirode Papuk');
+insert into vrsta (sifra, naziv)
+values (11,'Park prirode Telašćica');
+insert into vrsta (sifra, naziv)
+values (12,'Park prirode Učka');
+insert into vrsta (sifra, naziv)
+values (13,'Park prirode Velebit');
+insert into vrsta (sifra, naziv)
+values (14,'Park Prirode Vransko jezero');
+insert into vrsta (sifra, naziv)
+values (15,'Park prirode Lonjsko polje');
+insert into vrsta (sifra, naziv)
+values (16,'Park prirode Dinara');
+insert into vrsta (sifra, naziv)
+values (17,'Park prirode Biokovo');
+insert into vrsta (sifra, naziv)
+values (18,'Park prirode Medvednica');
+insert into vrsta (sifra, naziv)
+values (19,'Park prirode Lastovsko otočje');
+insert into vrsta (sifra, naziv)
+values (20,'Park prirode Žumberak-Samoborsko gorje');
+
+select * from vrsta;
+
+insert into park (sifra, vrsta, aktivnost)
+values (1,1,'planinarenje');
+insert into park (sifra, vrsta, aktivnost)
+values (2,2,'poučne staze');
+insert into park (sifra, vrsta, aktivnost)
+values (3,3,'vožnja brodom');
+insert into park (sifra, vrsta, aktivnost)
+values (4,4,'plivanje');
+insert into park (sifra, vrsta, aktivnost)
+values (5,5,'vođene ture');
+insert into park (sifra, vrsta, aktivnost)
+values (6,6,'promatranje životinja');
+insert into park (sifra, vrsta, aktivnost)
+values (7,7,'veslanje kanuom');
+insert into park (sifra, vrsta, aktivnost)
+values (8,8,'letenje s balonom');
+insert into park (sifra, vrsta, aktivnost)
+values (9,9,'hodanje');
+insert into park (sifra, vrsta, aktivnost)
+values (10,10,'škole u prirodi');
+insert into park (sifra, vrsta, aktivnost)
+values (11,11,'vožnja biciklom');
+insert into park (sifra, vrsta, aktivnost)
+values (12,12,'posjećivanje špilja');
+insert into park (sifra, vrsta, aktivnost)
+values (13,13,'alpinizam');
+insert into park (sifra, vrsta, aktivnost)
+values (14,14,'ribolov');
+insert into park (sifra, vrsta, aktivnost)
+values (15,15,'biciklizam');
+insert into park (sifra, vrsta, aktivnost)
+values (16,16,'škola u prirodi');
+insert into park (sifra, vrsta, aktivnost)
+values (17,17,'ugostiteljstvo i smještaj');
+insert into park (sifra, vrsta, aktivnost)
+values (18,18,'jahanje');
+insert into park (sifra, vrsta, aktivnost)
+values (19,19,'ronjenje');
+insert into park (sifra, vrsta, aktivnost)
+values (20,20,'kampiranje');
+
+select * from park;
+
+insert into staniste (sifra, zivotinja, park, zupanija)
+values (1,1,1,'Primorsko-goranska');
+insert into staniste (sifra, zivotinja, park, zupanija)
+values (2,2,2,'Zadarska i Ličko-senjska');
+insert into staniste (sifra, zivotinja, park, zupanija)
+values (3,3,3,'Šibensko-kninska');
+insert into staniste (sifra, zivotinja, park, zupanija)
+values (4,4,4,'Šibensko-kninska');
+insert into staniste (sifra, zivotinja, park, zupanija)
+values (5,5,5,'Ličko-senjska i Karlovačka');
+insert into staniste (sifra, zivotinja, park, zupanija)
+values (6,6,6,'Istarska');
+insert into staniste (sifra, zivotinja, park, zupanija)
+values (7,7,7,'Dubrovačko-neretvanska');
+insert into staniste (sifra, zivotinja, park, zupanija)
+values (8,8,8,'Ličko-senjska');
+insert into staniste (sifra, zivotinja, park, zupanija)
+values (9,9,9,'Osječko-baranjska');
+insert into staniste (sifra, zivotinja, park, zupanija)
+values (10,10,10,'Virovitičko-podravska i Požeško-slavonska');
+insert into staniste (sifra, zivotinja, park, zupanija)
+values (11,11,11,'Zadarska');
+insert into staniste (sifra, zivotinja, park, zupanija)
+values (12,12,12,'Istarska i Primorsko-goranska');
+insert into staniste (sifra, zivotinja, park, zupanija)
+values (13,13,13,'Ličko-senjska, Zadarska i Šibensko-kninska');
+insert into staniste (sifra, zivotinja, park, zupanija)
+values (14,14,14,'Zadarska i Šibensko-kninska');
+insert into staniste (sifra, zivotinja, park, zupanija)
+values (15,15,15,'Sisačko-moslavačka i Brodsko-posavska');
+insert into staniste (sifra, zivotinja, park, zupanija)
+values (16,16,16,'Splitsko-dalmatinska i Šibensko-kninska');
+insert into staniste (sifra, zivotinja, park, zupanija)
+values (17,17,17,'Splitsko-dalmatinska');
+insert into staniste (sifra, zivotinja, park, zupanija)
+values (18,18,18,'Grad Zagreb, Zagrebačka i Krapinsko-zagorska');
+insert into staniste (sifra, zivotinja, park, zupanija)
+values (19,19,19,'Dubrovačko-neretvanska');
+insert into staniste (sifra, zivotinja, park, zupanija)
+values (20,20,20,'Zagrebačka i Karlovačka');
+
+select * from staniste;
+
+insert into korisnik (sifra, ime, prezime, datumRodenja)
+values (1,'Katarina','Horvat','1998-11-11');
+insert into korisnik (sifra, ime, prezime, datumRodenja)
+values (2,'Zdravko','Miočić','1975-07-20');
+insert into korisnik (sifra, ime, prezime, datumRodenja)
+values (3,'Anamarija','Šuber','1986-04-24');
+insert into korisnik (sifra, ime, prezime, datumRodenja)
+values (4,'Fran','Kostelić','2002-02-02');
+insert into korisnik (sifra, ime, prezime, datumRodenja)
+values (5,'Luciano','Banduri','1964-06-27');
+
+select * from korisnik;
+
+insert into posjeta (park, korisnik, datum)
+values (1,4,'2022-10-05');
+insert into posjeta (park, korisnik, datum)
+values (2,2,'2022-09-13');
+insert into posjeta (park, korisnik, datum)
+values (3,5,'2023-05-15');
+insert into posjeta (park, korisnik, datum)
+values (5,2,'2023-03-23');
+insert into posjeta (park, korisnik, datum)
+values (6,4,'2023-07-10');
+insert into posjeta (park, korisnik, datum)
+values (8,2,'2023-08-14');
+insert into posjeta (park, korisnik, datum)
+values (9,3,'2022-09-08');
+insert into posjeta (park, korisnik, datum)
+values (10,3,'2023-03-11');
+insert into posjeta (park, korisnik, datum)
+values (12,4,'2023-04-21');
+insert into posjeta (park, korisnik, datum)
+values (13,2,'2023-06-01');
+insert into posjeta (park, korisnik, datum)
+values (14,5,'2022-08-17');
+insert into posjeta (park, korisnik, datum)
+values (15,1,'2022-02-28');
+insert into posjeta (park, korisnik, datum)
+values (16,5,'2023-07-15');
+insert into posjeta (park, korisnik, datum)
+values (18,1,'2022-11-21');
+insert into posjeta (park, korisnik, datum)
+values (20,1,'2023-01-30');
+
+select * from posjeta;
+
+DELIMITER $$
+CREATE FUNCTION vrijeme() RETURNS varchar(255)
+begin
+return DATE_FORMAT(now(), '%W %M %Y');
+end;
+$$
+DELIMITER ;
+select vrijeme();
+
+create table log(
+sifra int not null primary key auto_increment,
+akcija varchar(50) not null,
+vrijeme datetime not null,
+podaci varchar(255)
+);
+
+delimiter $$
+create trigger unos_korisnik after insert on korisnik for each row
+begin
+insert into log (akcija,vrijeme,podaci) values ('Unos korisnika',now(),concat(new.ime, ' ', new.prezime));
+end;
+$$
+delimiter ;
+
+insert into korisnik (sifra,ime,prezime,datumRodenja) 
+values (null,'Ivan','Ivić','1999-09-09');
+
+select * from log;
+select * from korisnik;
+
+delimiter $$
+create procedure brojKorisnika()
+begin
+select count(*) from korisnik;
+end;
+$$
+delimiter ;
+call brojKorisnika;
+

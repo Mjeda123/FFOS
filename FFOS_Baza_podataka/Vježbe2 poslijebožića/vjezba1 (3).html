@@ -1,0 +1,484 @@
+drop database amjeda_22_1;
+create database amjeda_22_1 character set utf8 collate =
+utf8_general_ci;
+use amjeda_22_1;
+#Kreiranje tablica
+create table autor(
+sifra int not null primary key auto_increment,
+ime varchar(50) not null,
+prezime varchar(50) not null,
+datumrodenja datetime
+) engine=innodb;
+create table izdavac(
+sifra int not null primary key auto_increment,
+naziv varchar(50) not null,
+aktivan boolean
+) engine=innodb;
+create table mjesto(
+sifra int not null primary key auto_increment,
+naziv varchar(50) not null,
+postanskibroj varchar(10),
+drzava varchar(50) default 'hrvatska'
+) engine=innodb;
+create table katalog(
+sifra int not null primary key auto_increment,
+autor int,
+naslov varchar(50) not null,
+izdavac int,
+mjesto int
+) engine=innodb;
+#Definiranje vanjskih ključeva u bazi
+alter table katalog add foreign key (autor) references
+autor(sifra);
+alter table katalog add foreign key (izdavac) references
+izdavac (sifra);
+alter table katalog add foreign key (mjesto) references mjesto
+(sifra);
+#Unos podataka u tablice
+insert into mjesto (naziv, postanskiBroj)
+values ('Zagreb', '10000');
+insert into mjesto (naziv, drzava)
+values ('Kopenagen','Danska');
+insert into mjesto (naziv, postanskiBroj)
+values ('Rijeka', '51000');
+insert into mjesto (naziv, postanskiBroj)
+values ('osijek', '3100');
+insert into autor (ime, prezime, datumrodenja)
+values ('Ivana','Brlić Mažuranić', '1874-04-18');
+insert into autor (ime, prezime, datumrodenja)
+values ('August','Šenoa', '1838-11-14');
+insert into autor (ime, prezime, datumrodenja)
+values ('Robert','Preišić', null);
+insert into izdavac (naziv)
+values ('Hrvatska revija');
+insert into izdavac (naziv)
+values ('Lavendel og rosmarin');
+insert into izdavac (naziv)
+values ('Riječ');
+insert into izdavac (naziv)
+values ('Biblioteka ON LINE');
+insert into izdavac (naziv)
+values ('Hrvatski pedagoški književni zbor');
+insert into katalog (autor, naslov, izdavac, mjesto)
+values (1, 'Mir u Duši', 1, 1);
+insert into katalog (autor, naslov, izdavac, mjesto)
+values (1, 'Priče iz davnine', 2, 2);
+insert into katalog (autor, naslov, izdavac, mjesto)
+values (1, 'Čudnovate zgode šegrta Hlapića', 5, 1);
+insert into katalog (autor, naslov, izdavac, mjesto)
+values (2, 'Čuvaj se senjske ruke', 3, 3);
+insert into katalog (autor, naslov, izdavac, mjesto)
+values (2, 'Zlatarevo zlato', 3, 3);
+insert into katalog (autor, naslov, izdavac, mjesto)
+values (3, 'Kultura u predgrađu', 4, 4);
+update mjesto set naziv='Kopenhagen'
+where sifra=2;
+update mjesto set naziv='Osijek', drzava='Hrvatska',
+postanskiBroj='31000'
+where sifra=4;
+delete from katalog where sifra=2;
+
+show create table autor;
+
+select * from information_schema.table_constraints
+where table_schema = 'amjeda_22_1' and constraint_type =
+'FOREIGN KEY';
+
+
+SELECT
+TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME,
+REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME
+FROM
+INFORMATION_SCHEMA.KEY_COLUMN_USAGE
+WHERE
+REFERENCED_TABLE_SCHEMA = 'amjeda_22_1' AND
+REFERENCED_TABLE_NAME = 'autor';
+
+SELECT
+TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME,
+REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME
+FROM
+INFORMATION_SCHEMA.KEY_COLUMN_USAGE
+WHERE
+REFERENCED_TABLE_SCHEMA = 'amjeda_22_1' AND
+REFERENCED_TABLE_NAME = 'mjesto';
+
+SELECT
+TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME,
+REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME
+FROM
+INFORMATION_SCHEMA.KEY_COLUMN_USAGE
+WHERE
+REFERENCED_TABLE_SCHEMA = 'amjeda_22_1' AND
+REFERENCED_TABLE_NAME = 'izdavac';
+
+select 
+    concat(
+        left(ime,1),
+        left(prezime,1)
+    ) from autor;
+
+select now();
+
+select sqrt(9)
+
+select pow(2,3)
+
+select datediff(now(),'1997-12-06');
+
+select datediff(now(),'1980-12-07 04:23:00')*24*60*60;
+
+
+DELIMITER $$
+CREATE FUNCTION email(ime varchar(50)) RETURNS varchar(255)
+begin
+return lower(concat(ime,'@ffos.hr'));
+end;
+$$
+DELIMITER ;
+
+select email('Perica');
+select email(naziv) from mjesto;
+
+create table log(
+sifra int not null primary key auto_increment,
+akcija varchar(50) not null,
+vrijeme datetime not null,
+podaci varchar(255)
+);
+
+select * from log;
+
+
+delimiter $$
+create trigger unos_autora after insert on autor for each row
+begin
+insert into log (akcija,vrijeme,podaci) values 
+('Unos autora',now(),concat(new.ime, ' ', new.prezime));
+end;
+$$
+delimiter ;
+
+select * from log;
+
+
+delimiter $$
+create trigger promjena_autora after update on autor for each
+row
+begin
+insert into log (akcija,vrijeme,podaci) values 
+('Promjena autora',now(),concat(old.ime, ' ', old.prezime , 
+' => ',new.ime, ' ', new.prezime));
+end;
+$$
+delimiter ;
+
+update autor set ime='Tomislava' where sifra=4;
+select from autor se
+
+delimiter $$
+create trigger brisanje_autora after delete on autor for each
+row
+begin
+insert into log (akcija,vrijeme,podaci) values 
+('Brisanje autora',now(),concat(old.ime, ' ', old.prezime ));
+end;
+$$
+delimiter ;
+
+delimiter $$
+create procedure brojAutora()
+begin
+select count(*) from autor;
+end;
+$$
+delimiter ;
+Procedura se izvršava s
+call brojAutora;
+
+delimiter $$
+create procedure brojznakova()
+begin
+declare done int default false;
+declare b, broj int;
+declare cur cursor for select length(ime) from autor;
+declare continue handler for not found set done = true;
+open cur;
+set @broj=0;
+read_loop: loop
+fetch cur into b;
+set @broj=@broj+b;
+if done then
+leave read_loop;
+end if;
+select @broj ;
+end loop;
+close cur;
+end;
+$$
+delimiter ;
+Procedura se izvršava s
+call brojznakova;
+
+
+select a.*
+from status a inner join operater b
+on a.operater=b.sifra
+where b.ime='Lora' and b.prezime='Alduk';
+
+select a.*
+from status a inner join operater b
+on a.operater=b.sifra
+where b.ime='Kristina' and b.prezime='Gagulic';
+
+select a.*
+from status a inner join operater b
+on a.operater=b.sifra
+where b.ime='Andrej' and b.prezime='Mjeda';
+
+#to je sve lajkao ststus "Danas nije jako "
+select a.ime, a.prezime, b.datum
+from operater a inner join svidamisestatus b
+on a.sifra=b.operater
+inner join status c on b.status=c.sifra
+where c.tekst like 'Danas nije jako hladno.';
+ 
+select distinct a.ime, a.prezime, b.datum
+from operater a inner join svidamisestatus b
+on a.sifra=b.operater
+inner join status c on b.status=c.sifra
+where c.tekst like 'Danas nije tako hladno.'
+order by 3 desc;
+
+select concat(d.ime, '' , d.prezime) as objavio,
+a.ime, a.prezime, b.datum
+from operater a inner join svidamisestatus b
+on a.sifra=b.operater
+inner join status c on b.status=c.status
+inner join operater d on c.operater=d.sifra 
+order by 3 desc;
+
+where c.tekst like 'Danas nije jako hladno.'
+order by 3 desc;
+
+select concat(b.sifra)
+from operater a inner join zadaca2 b on a.sifra=b.operater 
+where a.ime='Lea' and a.prezime='Marks';
+
+select concat(b.datum) as ukupno
+from operater a inner join zadaca5 b on
+a.sifra=b.operater
+group by a.ime, a.prezime
+order by 3 desc;
+
+select a.ime, a.prezime 
+from operater a left join zadaca6 b on 
+a.sifra=b.operater 
+where b.datum is null;
+
+select concat(b.datum) as ukupno
+from operater a inner join zadaca5 b on
+a.sifra=b.operater
+group by a.ime, a.prezime
+order by 3 desc;
+
+select count(*) from log2;
+
+#Tko je najviše radio na omsdm
+select korisnik, count(datum) from log2 
+group by korisnik order by 2 desc;
+
+#koju stranicu je profesor najviše posjetio
+select stranica, count(datum) from log2 
+where korisnik='Profesor' and datum<'2023-12-11'
+group by stranica order by 2 desc;
+
+
+create table sastojak(
+    sifra int not null primary key auto_increment,
+    naziv varchar(50)
+)engine=innodb;
+
+create table jedinica_mjere(
+    sifra int not null primary key auto_increment,
+    naziv varchar(50)
+)engine=innodb;
+
+create table kuhar(
+    sifra int not null primary key auto_increment,
+    ime varchar(50),
+    prezime varchar(50),
+    razina varchar(50)
+)engine=innodb;
+
+create table normativ(
+    sifra int not null primary key auto_increment, 
+    recept int, 
+    sastojak int, 
+    jedinica_mjere int,
+    kolicina varchar(50)
+)engine=innodb; 
+
+create table recept(
+    sifra int not null primary key auto_increment, 
+    naziv varchar(50) not null, 
+    opis varchar(50) not null, 
+    vrijeme_izrade varchar(50), 
+    kuhar int
+)engine=innodb;
+
+alter table 
+
+select * from information_schema.table_constraints
+where table_schema = 'amjeda_22_1' and constraint_type =
+'FOREIGN KEY';
+
+
+DELIMITER $$
+CREATE FUNCTION petina(broj int) RETURNS varchar(18, 2)
+begin
+return broj/5;
+end;
+$$
+DELIMITER ;
+
+insert into normativ (sifra) values (null);
+
+select petina (18) from normativ;
+
+
+delimiter $$
+create trigger unos_autora after insert on kuhar for each row
+begin
+insert into recept (naziv,opis,kuhar) values ('Kuharov recept'
+,'opis',new.sifra);
+end;
+$$
+delimiter ;
+
+insert into kuhar(ime,prezime) values ('Sven','Kov');
+
+insert into normativ(recept) values ('Kuharov recept')
+
+
+
+insert into kuhar(ime,prezime) values ('Sven','Kov');
+
+delimiter $$
+create procedure brisiSastojak(in sifra int)
+begin
+delete from normativ where sastojak=sifra;
+DELETE p, pa 
+FROM recept a left join normativ b on a.sifra=b.recept 
+WHERE b.sifra is null;
+end;
+$$
+delimiter ;
+Procedura se izvršava s
+call brisiSastojak(in sifra int);
+
+select count(*) from normativ;
+
+drugi zadatak
+
+DELIMITER $$
+CREATE FUNCTION prvoVelikoSlovo(ulaz varchar(50)) RETURNS varchar (1)
+begin
+return UPPER(LEFT(ulaz,1));
+end;
+$$
+DELIMITER ;
+
+select PrvoVelikoSlovo('provjera') as PrvoVelikoSlovo;
+
+//Provjera funkcije
+
+insert into odjel(naziv, broj_soba) values ('nešto',22);
+select * from odjel;
+insert into doktor(ime,prezime,specijalizacija,oib,odjel) values ('marko','nešto','kirurg','4567668799',1);
+select * from doktor;
+
+select prvoVelikoSlovo (ime) as PrvoVelikoSlovoRezultat from doktor;
+
+//Provjera okidača
+delimiter $$
+create trigger odjel_insert after insert on odjel for each row
+begin
+insert into doktor (ime,odjel) values ('Voditelj',new.sifra);
+end;
+$$
+delimiter ;
+
+insert into odjel(naziv,broj_soba) values('Rebro',17);
+select * from doktor;
+
+//Procedura
+delimiter $$
+create procedure brisiPosjetitelja(in sifra int)
+begin
+delete from posjeta where posjetitelj=sifra;
+DELETE a
+FROM posjetitelj a left join posjeta b on a.sifra=b.posjetitelj
+WHERE b.sifra is null;
+end;
+$$
+delimiter ;
+
+insert into pacijent(ime,prezime,adresa,oib,doktor) values('Ante',
+'Savić','Lorenza Jagera 5','548458899',1);
+
+insert into posjetitelj(ime,prezime,adresa,telefonski_broj) values
+('Sanja','Savić','Lorenza Jagera 5','770658979',1);
+
+insert into posjeta(datum,pacijent,posjetitelj,max_trajanje_minute)
+values ('2024-01-20',1,1,22);
+
+select * from posjetitelj;
+select * from pacijent;
+select * from posjeta;
+
+call brisiPosjetitelja(1);
+select * from posjetitelj;
+
+CRUD
+
+konfiguracija
+read
+<th>Ime</th>
+<th>Prezime</th>
+<th>Adresa</th>
+<th>Telefonski broj</th>
+
+<td> <?=$red->ime?> </td>
+<td> <?=$red->prezime?> </td>
+<td> <?=$red->adresa?> </td>
+<td> <?=$red->telefonski_broj?> </td>
+
+create 
+<label for="ime">Ime</label>
+<input type="text" name="ime" id="ime">
+
+<label for="prezime">Prezime</label>
+<input type="text" name="prezime" id="prezime">
+
+<label for="adresa">Adresa</label>
+<input type="text" name="adresa" id="adresa">
+
+<label for="telefonski_broj">Telefonski broj</label>
+<input type="text" name="telefonski_broj" id="telefonski_broj">
+
+update
+<label for="ime">Ime</label>
+<input type="text" name="ime" id="ime" value="<?=$red->ime?>">
+
+<label for="prezime">Prezime</label>
+<input type="text" name="prezime" id="prezime" value="<?=$red->prezime?>">
+
+<label for="adresa">Adresa</label>
+<input type="text" name="adresa" id="adresa" value="<?=$red->adresa?>">
+
+<label for="telefonski_broj">Telefonski broj</label>
+<input type="text" name="telefonski_broj" id="telefonski_broj" value="<?=$red->telefonski_broj?>">
+
+delete
+Jeste li sigurni da želite obrisati pacijenta <?=$red->ime?> <?=$red->prezime?> ?

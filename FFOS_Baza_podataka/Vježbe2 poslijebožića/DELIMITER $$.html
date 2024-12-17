@@ -1,0 +1,112 @@
+DELIMITER $$
+CREATE FUNCTION prijava(ime varchar(50), prezime(50)) RETURNS varchar(255)
+begin
+return left(ime, 'Fran', prezime, 'Kostelić');
+end;
+$$
+DELIMITER ;
+
+select vrijeme();
+
+
+DELIMITER $$
+CREATE FUNCTION korisnik(ime varchar(50)) RETURNS varchar(255)
+begin
+return concat(ime, prezime, '2002');
+end;
+$$
+DELIMITER ;
+
+select korisnik('Fran','Kostelić');
+
+DELIMITER $$
+CREATE FUNCTION hello(s char(20)) RETURNS char(50) DETERMINISTIC
+begin
+return concat('Hello', ',s,'!');
+end;
+$$
+DELIMITER ;
+
+select hello('world');
+
+DELIMITER $$
+CREATE FUNCTION korisnik(ime varchar(50)) RETURNS varchar(255)
+begin
+return concat(ime, prezime, '2002');
+end;
+$$
+DELIMITER ;
+
+
+okidač
+delimiter $$
+create trigger unos_korisnika after insert on korisnik for each row
+begin
+insert into korisnik (sifra,ime,prezime,datumRodenja) values 
+(new.sifra,new.ime, new.prezime,'datumRodenja');
+end;
+$$
+delimiter ;
+
+insert into korisnik (sifra,ime,prezime,datumRodenja) 
+values (null,'Ivan','Ivić','1999-09-09');
+
+insert into korisnik (sifra,ime,prezime) 
+values (null,'Ivan','Ivić');
+
+create table log(
+sifra int not null primary key auto_increment,
+akcija varchar(50) not null,
+vrijeme datetime not null,
+podaci varchar(255)
+);
+
+delimiter $$
+create trigger unos_korisnik after insert on korisnik for each row
+begin
+insert into log (akcija,vrijeme,podaci) values ('Unos korisnika',now(),concat(new.ime, ' ', new.prezime));
+end;
+$$
+delimiter ;
+
+delimiter $$
+create procedure brojKorisnika()
+begin
+select count(*) from korisnik;
+end;
+$$
+delimiter ;
+Procedura se izvršava s
+call brojKorisnika;
+
+
+delimiter $$
+create procedure knjigeAutora(in prezime varchar(50))
+begin
+select b.naslov
+from autor a inner join katalog b
+on a.sifra=b.autor
+where a.prezime=prezime;
+end;
+$$
+delimiter ;
+
+delimiter $$
+create procedure posjetakorisnika(in prezime varchar(50))
+begin
+select a.naziv, d.ime, d.prezime
+from vrsta a 
+inner join park b on a.vrsta=b.sifra
+inner join posjeta c on b.sifra=c.park
+inner join korisnik d on c.korisnik=d.sifra
+end;
+$$
+delimiter ;
+
+
+
+
+select a.prezime
+from katalog k
+inner join autor a on k.autor=a.sifra
+where prezime like 'Šenoa';

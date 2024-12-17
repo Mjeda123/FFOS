@@ -1,0 +1,261 @@
+<!--PUTTY-PRIJAVA-->
+podesiti na SFTP
+adresa/IP           oziz.ffos.hr
+korisničko ime:     mslobodanac_21
+lozinka:
+port:               222
+direktorij mapiran: https://oziz.ffo.hr/nastava20212022/mslobodanac_21
+
+
+<!--PUTTY-SPAJANJE NA BAZU-->
+spajanje na bazu:   mysql -u mslobodanac_21_20 -p;
+use mslobodanac_21_20;
+
+
+<!--MALI TIP - ako zaboravite staviti ; ili vam se naredba nije provela, ili ste sintaksno nešto krivo napisali
+samo stisnite ctrl + -->
+
+<!--IZRADA BAZE-->
+<!--ne može se izraditi, prvo ju treba dropat-->
+    drop database mslobodanac_21_20;
+<!--sada se može izraditi-->
+    create database mslobodanac_21_20 character set utf8 collate = utf8:general_ci;
+
+
+<!--PRIKAZ DOSTUPNIH BAZA-->
+show databases;
+
+
+<!--PRIKAZ SVIH TABLICA BAZE-->
+show tables;
+
+
+<!--PRIKAZ STRUKTURE TABLICE-->
+describe ime_tablice;
+
+
+<!--PRIKAZ SQL NAREDBE tj. KODA ZA IZRADU NEKE TABLICE-->
+show create table ime_tablice;
+
+
+<!--IZRADA TABLICA-->
+create table autor(
+    sifra           int not null primarey key auto_increment,
+    ime             varchar(50) not null,
+    prezime         varchar(50) not null,
+    datumrodenja    datetime,
+    aktivan         boolean,
+    postanskibroj   varchar(10),
+    drzava          varchar(50) default 'Hrvatska'
+); engine=innodb
+
+
+<!--UNOS PODATAKA-->
+insert into autor (ime, prezime, datumrodenja)
+values ('Edgar', 'Poe', '1988-01-01')
+
+
+<!--PROMJENA PODATAKA-->
+update autor set ime='Luka', prezime='Lukić' where sifra=1;
+
+
+<!--BRISANJE PODATAKA-->
+delete from autor where sifra=1;
+
+
+<!--DODAVANJE VANJSKIH KLJUČEVA-->
+alter table autor add foreign key (izdavac) references izdavac(sifra);
+
+
+<!--PRIKAZ SVIH VANJSKIH KLJUČEVA BAZE-->
+select * from information_shema.table_constraints 
+where table_shema = 'ime_baze' and constraint_type = 'FOREIGN KEY';
+
+
+<!--PRIKAZ GDJE JE TABLICA VANJSKI KLJUČ-->
+select
+    table_name, column_name, constraint_name, referenced_table_name, 
+    referenced_column_name
+from 
+    information_shema.key_column_usage 
+where
+    referenced_table_shema = 'ime_baze'  and
+    referenced_table_name = 'ime_tablice';
+
+
+<!--IZRADA FUNKCIJA-->
+<!--funkcija bez parametara-->
+DELIMITER $$
+CREATE FUNCTION vrijeme() RETURNS varchar(225)
+begin
+return DATE_FORMAT(now(), '%W %M %Y');
+end;
+$$
+DELIMITER;
+
+<!--funkcija sa 1 parametrom-->
+DELIMITER $$
+CREATE FUNCTION email(ime varchar(50)) RETURNS varchar(225)
+begin
+return lower(concat(ime, '@ffos.hr'));
+end;
+$$
+DELIMITER;
+
+<!--funkcija sa više parametara-->
+DELIMITER $$
+CREATE FUNCTION generiraniemail(ime varchar(50), prezime varchar(50)) RETURNS varchar(225)
+begin
+return
+replace( 
+replace(
+replace(
+replace(
+replace(
+lower(
+concat(
+left(ime,1),
+prezime, '@ffos.hr)
+),'š','s'),'đ','d'),'č','c'),'ć','c'),'ž','z');
+end;
+$$
+DELIMITER;
+
+
+<!--IZRADA OKIDAČA-->
+Postavljaju se na naredbe insert (prije/poslije), update (prije/poslije),
+delete (prije/poslije)
+
+<!--opća sintaksa okidača-->         
+delimiter $$
+create  
+    trigger naziv_okidača before/after insert/update/delete
+    on ime_tablice
+    for each row begin
+        tijelo okidača
+        naredbe koje će se primijeniti na svaki upit
+    end;
+$$
+delimiter;
+
+<!--primjer-->
+<!--unos autora-->
+delimiter $$
+create trigger unos_autora after insert on autor for each row
+begin
+insert into log (akcija,vrijeme,podaci) values ('Unos
+autora',now(),concat(new.ime, ' ', new.prezime));
+end;
+$$
+delimiter ;
+
+<!--promjena autora-->
+delimiter $$
+create trigger promjena_autora after update on autor for each
+row
+begin
+insert into log (akcija,vrijeme,podaci) values ('Promjena
+autora',now(),concat(old.ime, ' ', old.prezime , ' =>
+',new.ime, ' ', new.prezime));
+end;
+$$
+delimiter ;
+
+<!--brisanje autora-->
+delimiter $$
+create trigger brisanje_autora after delete on autor for each
+row
+begin
+insert into log (akcija,vrijeme,podaci) values ('Brisanje
+autora',now(),concat(old.ime, ' ', old.prezime ));
+end;
+$$
+delimiter ;
+
+<!--IZRADA POHRANJENIH PROCEDURA-->
+<!--opća sintaksa-->
+delimiter $$
+create
+    procedure naziv_procedure(IN/OUT parametri)
+    begin
+        --tijelo procedure
+        --naredbe koje će se izvesti pozivom procedure
+    end;
+$$
+delimiter ;
+
+<!--primjer procedure koja ne prima parametre-->
+delimiter $$
+create procedure brojAutora()
+begin
+select count(*) from autor;
+end;
+$$
+delimiter ;
+
+Procedura se izvršava s
+call brojAutora;
+
+<!--primjer procedure koja prima parametar-->
+delimiter $$
+create procedure knjigeAutora(in prezime varchar(50) )
+begin
+select a.naslov from katalog a inner join autor b on
+a.autor=b.sifra where b.prezime=prezime;
+end;
+$$
+delimiter ;
+
+Procedura se izvršava s
+call knjigeAutora('Šenoa');
+
+<!--primjer procedure koja iterira podatke u tablici-->
+delimiter $$
+create procedure brojznakova()
+begin
+declare done int default false;
+declare b, broj int;
+declare cur cursor for select length(ime) from autor;
+declare continue handler for not found set done = true;
+open cur;
+set @broj=0;
+read_loop: loop
+fetch cur into b;
+set @broj=@broj+b;
+if done then
+leave read_loop;
+end if;
+select @broj ;
+end loop;
+close cur;
+end;
+$$
+delimiter ;
+
+Procedura se izvršava s
+call brojznakova;
+
+
+<!--CRUD-->
+Svi koraci pišu u datoteci naputak
+
+<!--promjena u datoteci read-PRIMJER-->
+<th>Ime</th>
+<th>Prezime</th>                          <!--prva promjena-->
+<th>Datum rođenja</th>
+
+<td> <?=$red->ime?> </td>
+<td> <?=$red->prezime?> </td>             <!--druga promjena-->
+<td> <?=$red->datumrodenja?> </td>
+
+<!--promjena u datoteci create-PRIMJER-->
+<label for="ime">Ime</label>
+<input type="text" name="ime" id="ime">
+
+<!--promjena u datoteci update-PRIMJER-->
+<label for="ime">Ime</label>
+<input type="text" name="ime" id="ime"
+value="<?=$red->ime?>">
+
+<!--promjena u datoteci delete-PRIMJER-->
+Sigurno obrisati <?=$red->ime?> <?=$red->prezime?>? 
