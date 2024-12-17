@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+<responseDate>2021-12-16T14:19:27Z</responseDate><request 
+identifier="oai:archivo.aytoarganda.es:1Audios:879004d1-fa41-4ddf-b89a-d9d5ec4c49f8" metadataPrefix="ese" verb="GetRecord">http://archivo.ayto-arganda.es:8080/repox/OAIHandler</request>
+<GetRecord><record xmlns="http://www.openarchives.org/OAI/2.0/"><header><identifier>oai:archivo.aytoarganda.es:1Audios:879004d1-fa41-4ddf-b89a-d9d5ec4c49f8</identifier><datestamp>2020-09-24</datestamp>
+    <setSpec>Audios</setSpec></header><metadata><europeana:record 
+        xmlns:europeana="http://www.europeana.eu/schemas/ese/" 
+        xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="http://www.europeana.eu/schemas/ese/ http://www.europeana.eu/schemas/ese/ESE-V3.4.xsd">
+    <dc:publisher>Archivo de la Ciudad de Arganda del Rey</dc:publisher>
+    <dc:identifier>Signatura:ES-28014-AMAR-A02000010001</dc:identifier>
+    <dc:date>2002-05-22</dc:date>
+    <dcterms:temporal>2002-2002</dcterms:temporal>
+    <dc:title>Audio: entrevista a Gregorio Antoñanzas Sanz. Venta del aceite. Utilización del aceite en la elaboración del jabón y del vino. Fuentes</dc:title>
+    <dc:format>application/html</dc:format>
+    <dc:format>MP3</dc:format>
+    <dcterms:extent>2796 Kb</dcterms:extent>
+    <dc:language>spa</dc:language>
+    <dc:type>Sound</dc:type>
+    <dc:type>Audio</dc:type>
+    <dcterms:spatial>Arganda del Rey</dcterms:spatial>
+    <dcterms:spatial>C.A. Madrid</dcterms:spatial>
+    <dc:rights>http://creativecommons.org/licenses/by-nd/4.0/</dc:rights>
+    <dc:subject>Aceituna</dc:subject>
+    <dc:source>http://archivo.ayto-arganda.es/digital/media.aspx?id=A02000010001</dc:source>
+    <europeana:object>http://archivo.ayto-arganda.es/images/object.jpg</europeana:object>
+    <europeana:provider>Hispana</europeana:provider>
+    <europeana:type>SOUND</europeana:type>
+    <europeana:rights>http://creativecommons.org/licenses/by-nd/4.0/</europeana:rights>
+    <europeana:dataProvider>Archivo de la Ciudad de Arganda del Rey</europeana:dataProvider>
+    <europeana:isShownAt>http://archivo.ayto-arganda.es/digital/media.aspx?id=A02000010001</europeana:isShownAt>
+  </europeana:record></metadata></record></GetRecord></OAI-PMH>

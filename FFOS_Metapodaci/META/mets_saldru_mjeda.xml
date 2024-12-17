@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" ?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2022-01-27T13:37:36Z</responseDate><request verb="GetRecord" identifier="oai:localhost:11090/974" metadataPrefix="mets">http://opensaldru.uct.ac.za/oai/request</request><GetRecord><record><header><identifier>oai:localhost:11090/974</identifier><datestamp>2020-02-14T14:20:08Z</datestamp><setSpec>hdl_11090_965</setSpec></header><metadata><mets xmlns="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="DSpace_ITEM_11090-974" OBJID="hdl:11090/974" TYPE="DSpace ITEM" PROFILE="DSpace METS SIP Profile 1.0" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd">
+  <metsHdr CREATEDATE="2022-01-27T15:37:36">
+    <agent ROLE="CUSTODIAN" TYPE="ORGANIZATION">
+      <name>OpenSALDRU</name>
+    </agent>
+  </metsHdr>
+  <dmdSec ID="dmdSec_2">
+    <mdWrap MDTYPE="MODS">
+      <xmlData xmlns:mods="http://www.loc.gov/mods/v3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+        <mods:mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+          <mods:name>
+            <mods:role>
+              <mods:roleTerm type="text">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart>Brixiová, Zuzana</mods:namePart>
+          </mods:name>
+          <mods:name>
+            <mods:role>
+              <mods:roleTerm type="text">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart>Kangoye, Thierry</mods:namePart>
+          </mods:name>
+          <mods:name>
+            <mods:role>
+              <mods:roleTerm type="text">author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart>Tregenna, Fiona</mods:namePart>
+          </mods:name>
+          <mods:extension>
+            <mods:dateAccessioned encoding="iso8601">2020-02-14T14:18:50Z</mods:dateAccessioned>
+          </mods:extension>
+          <mods:extension>
+            <mods:dateAvailable encoding="iso8601">2020-02-14T14:18:50Z</mods:dateAvailable>
+          </mods:extension>
+          <mods:originInfo>
+            <mods:dateIssued encoding="iso8601">2020-02</mods:dateIssued>
+          </mods:originInfo>
+          <mods:relatedItem type="host">
+            <mods:part>
+              <mods:text>Brixiová, Z., Kangoye, T. Tregenna, F. (2020). Enterprising women in Southern Africa:  When does land ownership matter?  Cape Town: SALDRU, UCT. (SALDRU Working Paper Number 258)</mods:text>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:identifier type="isbn">978-1-928516-19-4</mods:identifier>
+          <mods:identifier type="uri">http://hdl.handle.net/11090/974</mods:identifier>
+          <mods:note>The authors thank Mina Baliamoune, Mthuli Ncube, and Léonce Ndikumana for stimulating discussions on earlier drafts. Helpful insights were also provided by graduate students in the Applied Econometrics course at the Technical University of Ostrava. Earlier versions were presented at the Conference on Pathways to Gender Equality (American University, Washington DC), the 1st Private Sector Development Research Network Conference (Graduate Institute, Geneva) and the economics seminar series at the University of Gra.The views expressed are those of the authors and not necessarily those of the African Development Bank.</mods:note>
+          <mods:abstract>Limited access to finance is one of the major barriers for women entrepreneurs in Africa. This paper presents a model of start-ups in which firms’ sales and profits depend on their productivity and access to credit. However, due to the lack of collateral assets such as land, female entrepreneurs have more constrained access to credit than do men. Testing the model on data from the World Bank Enterprise Surveys in Eswatini, Lesotho, and Zimbabwe, we find land ownership to be important for female entrepreneurial performance in terms of sales levels. This finding suggests that the small Southern African economies would benefit from removing obstacles to women’s land tenure and enabling financial institutions to lend against movable collateral. While land ownership is linked with higher sales levels, it seems less critical for sales growth and innovation where access to short term loans for working capital seems to be key.</mods:abstract>
+          <mods:note type="sponsorship">Zuzana Brixiová acknowledges funding from the Czech Science Foundation under Grant No. GA19 – 25280S. Fiona Tregenna acknowledges funding under the South African Research Chairs Initiative of the Department of Science and Technology and National Research Foundation of South Africa (Grant No. 98627).</mods:note>
+          <mods:language>
+            <mods:languageTerm authority="rfc3066">en</mods:languageTerm>
+          </mods:language>
+          <mods:relatedItem type="series">Saldru Working Paper;258</mods:relatedItem>
+          <mods:subject>
+            <mods:topic>entrepreneurial sales</mods:topic>
+          </mods:subject>
+          <mods:subject>
+            <mods:topic>innovation</mods:topic>
+          </mods:subject>
+          <mods:subject>
+            <mods:topic>credit</mods:topic>
+          </mods:subject>
+          <mods:subject>
+            <mods:topic>land</mods:topic>
+          </mods:subject>
+          <mods:subject>
+            <mods:topic>gender</mods:topic>
+          </mods:subject>
+          <mods:subject>
+            <mods:topic>Africa</mods:topic>
+          </mods:subject>
+          <mods:titleInfo>
+            <mods:title>Enterprising women in Southern Africa:  When does  land ownership matter?</mods:title>
+          </mods:titleInfo>
+          <mods:genre>Working Paper</mods:genre>
+        </mods:mods>
+      </xmlData>
+    </mdWrap>
+  </dmdSec>
+  <amdSec ID="amd_5">
+    <rightsMD ID="rightsMD_6">
+      <mdWrap MIMETYPE="text/plain" MDTYPE="OTHER" OTHERMDTYPE="DSpaceDepositLicense">
+        <binData>Tk9URTogUExBQ0UgWU9VUiBPV04gTElDRU5TRSBIRVJFClRoaXMgc2FtcGxlIGxpY2Vuc2Ug
+aXMgcHJvdmlkZWQgZm9yIGluZm9ybWF0aW9uYWwgcHVycG9zZXMgb25seS4KCk5PTi1FWENMVVNJ
+VkUgRElTVFJJQlVUSU9OIExJQ0VOU0UKCkJ5IHNpZ25pbmcgYW5kIHN1Ym1pdHRpbmcgdGhpcyBs
+aWNlbnNlLCB5b3UgKHRoZSBhdXRob3Iocykgb3IgY29weXJpZ2h0Cm93bmVyKSBncmFudHMgdG8g
+RFNwYWNlIFVuaXZlcnNpdHkgKERTVSkgdGhlIG5vbi1leGNsdXNpdmUgcmlnaHQgdG8gcmVwcm9k
+dWNlLAp0cmFuc2xhdGUgKGFzIGRlZmluZWQgYmVsb3cpLCBhbmQvb3IgZGlzdHJpYnV0ZSB5b3Vy
+IHN1Ym1pc3Npb24gKGluY2x1ZGluZwp0aGUgYWJzdHJhY3QpIHdvcmxkd2lkZSBpbiBwcmludCBh
+bmQgZWxlY3Ryb25pYyBmb3JtYXQgYW5kIGluIGFueSBtZWRpdW0sCmluY2x1ZGluZyBidXQgbm90
+IGxpbWl0ZWQgdG8gYXVkaW8gb3IgdmlkZW8uCgpZb3UgYWdyZWUgdGhhdCBEU1UgbWF5LCB3aXRo
+b3V0IGNoYW5naW5nIHRoZSBjb250ZW50LCB0cmFuc2xhdGUgdGhlCnN1Ym1pc3Npb24gdG8gYW55
+IG1lZGl1bSBvciBmb3JtYXQgZm9yIHRoZSBwdXJwb3NlIG9mIHByZXNlcnZhdGlvbi4KCllvdSBh
+bHNvIGFncmVlIHRoYXQgRFNVIG1heSBrZWVwIG1vcmUgdGhhbiBvbmUgY29weSBvZiB0aGlzIHN1
+Ym1pc3Npb24gZm9yCnB1cnBvc2VzIG9mIHNlY3VyaXR5LCBiYWNrLXVwIGFuZCBwcmVzZXJ2YXRp
+b24uCgpZb3UgcmVwcmVzZW50IHRoYXQgdGhlIHN1Ym1pc3Npb24gaXMgeW91ciBvcmlnaW5hbCB3
+b3JrLCBhbmQgdGhhdCB5b3UgaGF2ZQp0aGUgcmlnaHQgdG8gZ3JhbnQgdGhlIHJpZ2h0cyBjb250
+YWluZWQgaW4gdGhpcyBsaWNlbnNlLiBZb3UgYWxzbyByZXByZXNlbnQKdGhhdCB5b3VyIHN1Ym1p
+c3Npb24gZG9lcyBub3QsIHRvIHRoZSBiZXN0IG9mIHlvdXIga25vd2xlZGdlLCBpbmZyaW5nZSB1
+cG9uCmFueW9uZSdzIGNvcHlyaWdodC4KCklmIHRoZSBzdWJtaXNzaW9uIGNvbnRhaW5zIG1hdGVy
+aWFsIGZvciB3aGljaCB5b3UgZG8gbm90IGhvbGQgY29weXJpZ2h0LAp5b3UgcmVwcmVzZW50IHRo
+YXQgeW91IGhhdmUgb2J0YWluZWQgdGhlIHVucmVzdHJpY3RlZCBwZXJtaXNzaW9uIG9mIHRoZQpj
+b3B5cmlnaHQgb3duZXIgdG8gZ3JhbnQgRFNVIHRoZSByaWdodHMgcmVxdWlyZWQgYnkgdGhpcyBs
+aWNlbnNlLCBhbmQgdGhhdApzdWNoIHRoaXJkLXBhcnR5IG93bmVkIG1hdGVyaWFsIGlzIGNsZWFy
+bHkgaWRlbnRpZmllZCBhbmQgYWNrbm93bGVkZ2VkCndpdGhpbiB0aGUgdGV4dCBvciBjb250ZW50
+IG9mIHRoZSBzdWJtaXNzaW9uLgoKSUYgVEhFIFNVQk1JU1NJT04gSVMgQkFTRUQgVVBPTiBXT1JL
+IFRIQVQgSEFTIEJFRU4gU1BPTlNPUkVEIE9SIFNVUFBPUlRFRApCWSBBTiBBR0VOQ1kgT1IgT1JH
+QU5JWkFUSU9OIE9USEVSIFRIQU4gRFNVLCBZT1UgUkVQUkVTRU5UIFRIQVQgWU9VIEhBVkUKRlVM
+RklMTEVEIEFOWSBSSUdIVCBPRiBSRVZJRVcgT1IgT1RIRVIgT0JMSUdBVElPTlMgUkVRVUlSRUQg
+QlkgU1VDSApDT05UUkFDVCBPUiBBR1JFRU1FTlQuCgpEU1Ugd2lsbCBjbGVhcmx5IGlkZW50aWZ5
+IHlvdXIgbmFtZShzKSBhcyB0aGUgYXV0aG9yKHMpIG9yIG93bmVyKHMpIG9mIHRoZQpzdWJtaXNz
+aW9uLCBhbmQgd2lsbCBub3QgbWFrZSBhbnkgYWx0ZXJhdGlvbiwgb3RoZXIgdGhhbiBhcyBhbGxv
+d2VkIGJ5IHRoaXMKbGljZW5zZSwgdG8geW91ciBzdWJtaXNzaW9uLgo=</binData>
+      </mdWrap>
+    </rightsMD>
+  </amdSec>
+  <amdSec ID="amd_10">
+    <techMD ID="techMD_11">
+      <mdWrap MDTYPE="PREMIS">
+        <xmlData xmlns:premis="http://www.loc.gov/standards/premis" xsi:schemaLocation="http://www.loc.gov/standards/premis http://www.loc.gov/standards/premis/PREMIS-v1-0.xsd">
+          <premis:premis>
+            <premis:object>
+              <premis:objectIdentifier>
+                <premis:objectIdentifierType>URL</premis:objectIdentifierType>
+                <premis:objectIdentifierValue>http://localhost:8080/bitstream/11090%2F974/1/2020_258_Saldruwp.pdf</premis:objectIdentifierValue>
+              </premis:objectIdentifier>
+              <premis:objectCategory>File</premis:objectCategory>
+              <premis:objectCharacteristics>
+                <premis:fixity>
+                  <premis:messageDigestAlgorithm>MD5</premis:messageDigestAlgorithm>
+                  <premis:messageDigest>859503f58e6afc22039e9638e8c7d087</premis:messageDigest>
+                </premis:fixity>
+                <premis:size>854463</premis:size>
+                <premis:format>
+                  <premis:formatDesignation>
+                    <premis:formatName>application/pdf</premis:formatName>
+                  </premis:formatDesignation>
+                </premis:format>
+              </premis:objectCharacteristics>
+              <premis:originalName>2020_258_Saldruwp.pdf</premis:originalName>
+            </premis:object>
+          </premis:premis>
+        </xmlData>
+      </mdWrap>
+    </techMD>
+  </amdSec>
+  <fileSec>
+    <fileGrp USE="CONTENT">
+      <file ID="bitstream_1" MIMETYPE="application/pdf" SEQ="1" SIZE="854463" CHECKSUM="859503f58e6afc22039e9638e8c7d087" CHECKSUMTYPE="MD5" ADMID="amd_10" GROUPID="GROUP_bitstream_1">
+        <FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="http://localhost:8080/bitstream/11090/974/1/2020_258_Saldruwp.pdf" />
+      </file>
+    </fileGrp>
+  </fileSec>
+  <structMap ID="struct_7" LABEL="DSpace Object" TYPE="LOGICAL">
+    <div ID="div_8" DMDID="dmdSec_2" ADMID="amd_5" TYPE="DSpace Object Contents">
+      <div ID="div_9" TYPE="DSpace BITSTREAM">
+        <fptr FILEID="bitstream_1" />
+      </div>
+    </div>
+  </structMap>
+</mets></metadata></record></GetRecord></OAI-PMH>

@@ -1,0 +1,185 @@
+<mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd" >
+    <originInfo eventType="defence" >
+    <dateOther type="defended" encoding="iso8601" keyDate="yes" >2011-07-08</dateOther>
+    <place>
+    <placeTerm type="code" authority="iso3166" >hr</placeTerm>
+    </place>
+    </originInfo>
+    <name type="personal" >
+    <role>
+    <roleTerm authority="marcrelator" type="text" >Author</roleTerm>
+    </role>
+    <namePart type="given" >Lana</namePart>
+    <namePart type="family" >Bede</namePart>
+    </name>
+    <titleInfo>
+    <title>Foreign Language Listening Anxiety: The Relationship between Listening Anxiety and Success in Learning English as a Foreign Language</title>
+    </titleInfo>
+    <titleInfo type="alternative" lang="hrv" >
+    <title>Odnos između straha od slušanja i uspjeha u učenju engleskoga kao stranoga jezika</title>
+    </titleInfo>
+    <language>
+    <languageTerm type="code" authority="iso639-2b" >eng</languageTerm>
+    </language>
+    <abstract>Anxiety in general is a very complex psychological state which has been researched many times due to the fact that it is constantly present in all areas of people’s lives and that it influences them in many ways. As in every other area, anxiety is present in second language acquisition too. Although some researchers claim that anxiety can have a positive influence on language acquisition since it keeps learners alert and, it is the negative aspect that is constantly investigated by language researchers. Foreign language anxiety can harm learners’ performance and influence their confidence, which results in decrease of motivation and, therefore, in slower second language acquisition. In order to find out what causes language anxiety and how to overcome it, language researchers have carried out extensive research on this topic. According to Horwitz et al. (1986), foreign language anxiety often harms learners’ performance in foreign language. This present study deals with listening anxiety. Its aim is to investigate the relationship between listening anxiety and success in learning English as a foreign language. In particular, it investigates the relationship between listening anxiety and listening comprehension. The study was conducted on the sample of ninety-seven intermediate English students enrolled in Second Grammar School Osijek. In order to be able to test the relationship between listening anxiety and success in learning English as a foreign language, two instruments were administered to the participants: Foreign Language Listening Anxiety Scale (FLLAS) developed by Rost and Ross (1991, as cited in Mihaljević Djigunović, 2002) and a listening comprehension test. Final grades in English were taken as a measure of learning success. The data was analyzed by means of the statistical program SPSS 19.0. and the results confirmed the assumptions that there is a relationship between listening anxiety and success in learning English as a second language. Finally, various methods and techniques which can help teachers and learners of English overcome listening anxiety are suggested.</abstract>
+    <abstract type="alternative" lang="hrv" >Strah je složeno psihološko stanje koje je mnogo puta bilo istraživano jer je neprestano prisutno u svim područjima ljudskih života i na koje ujedno i utječe na mnoge načine. Sukladno tomu, strah je prisutan i u usvajanju stranoga jezika. Iako neki istraživači tvrde da strah može imati i pozitivan utjecaj na usvajanje stranoga jezika jer drži učenike u stanju pripravnosti, zapravo je negativni aspekt straha od stranoga jezika taj kojim se israživači neprestano bave. Strah od stranoga jezika može narušiti učenikova izvedba na satu te utjecati na učeničko samopouzdanje što rezultira smanjenom motivacijom i, sukladno tomu, slabijim usvajanjem stranog jezika. Kako bi pronašli uzroke straha od stranog jezika i načine kako taj strah prevladati, znanstvenici su provodili opsežna istraživanja na tu temu. Horwitz et al. (1986) primijetili su da strah od jezika narušava učeničku izvedbu na stranom jeziku. Ovo se istraživanje bavi strahom od slušanja. Cilj je istraživanja istražiti odnos između straha od slušanja i uspjeha u učenju engleskoga kao stranoga jezika. Točnije, istraživanje se bavi proučavanjem odnosa između straha od slušanja i razumijevanja slušanoga teksta. U istraživanju je sudjelovalo devedeset i sedam učenika II. Gimnazije Osijek. Kako bi se testirao odnos između straha od slušanja i uspjeha u učenju engleskoga kao stranoga jezika, bila su upotrebljena dva instrumenta: upitnik o strahu od slušanja, kojeg su razvili Rost i Ross (1991, citirano u Mihaljević Djigunović 2002) te test razumijevanja slušanoga teksta. Ocjene na kraju školske godine uzete su kao mjera uspjeha u učenju engleskoga kao stranoga jezika. Podaci su analizirani statističkim kompjuterskim programom SPSS 19.0. Rezultati su potvrdili istraživačeve pretpostavke da postoji odnos između straha od slušanja i uspjeha u učenju engleskoga kao stranog jezika. U radu su ponuđene razne metode i tehnike koje mogu pomoći učenicima i nastavnicima engleskoga u nadvladavanju straha od slušanja.</abstract>
+    <subject authority="nvzz.hr" >
+    <topic>HUMANISTIČKE ZNANOSTI</topic>
+    <topic lang="eng" >HUMANISTIC SCIENCES</topic>
+    <topic>Filologija</topic>
+    <topic lang="eng" >Philology</topic>
+    <topic>Anglistika</topic>
+    <topic lang="eng" >Anglistics</topic>
+    </subject>
+    <name type="corporate" >
+    <role>
+    <roleTerm type="text" authority="marcrelator" >Degree grantor</roleTerm>
+    </role>
+    <nameIdentifier type="local" >1002#2034#2036</nameIdentifier>
+    <namePart>Sveučilište Josipa Jurja Strossmayera u Osijeku</namePart>
+    <namePart lang="eng" >Josip Juraj Strossmayer University of Osijek</namePart>
+    <namePart>Filozofski fakultet</namePart>
+    <namePart lang="eng" >Faculty of Humanities and Social Sciences</namePart>
+    <namePart>Odsjek za engleski jezik i književnost</namePart>
+    <namePart lang="eng" >Department of English Language and Literature</namePart>
+    <affiliation>Osijek</affiliation>
+    </name>
+    <extension>
+    <etd:degree id="2141" >
+    <etd:level type="vrsta" lang="hrv" >sveučilišni</etd:level>
+    <etd:level type="vrsta" lang="eng" >university</etd:level>
+    <etd:level type="razina" lang="hrv" >diplomski</etd:level>
+    <etd:level type="razina" lang="eng" >graduate</etd:level>
+    <etd:discipline>Engleski jezik i književnost (dvopredmetni); smjerovi: nastavnički, filološki, prevoditeljski</etd:discipline>
+    <etd:discipline lang="eng" >English Language and Literature (double major); specializations in: Teacher Training, Translation and Interpreting Studies, Philology</etd:discipline>
+    <etd:discipline type="smjer" >nastavnički</etd:discipline>
+    <etd:discipline type="smjer" lang="eng" >Teacher Training</etd:discipline>
+    <etd:name>magistar/magistra engleskog jezika i književnosti</etd:name>
+    <etd:name type="abbreviation" >mag. philol. angl.</etd:name>
+    </etd:degree>
+    <etd:degree id="2139" >
+    <etd:level type="vrsta" lang="hrv" >sveučilišni</etd:level>
+    <etd:level type="vrsta" lang="eng" >university</etd:level>
+    <etd:level type="razina" lang="hrv" >diplomski</etd:level>
+    <etd:level type="razina" lang="eng" >graduate</etd:level>
+    <etd:discipline>Njemački jezik i književnost (dvopredmetni); smjerovi: nastavnički, prevoditeljski</etd:discipline>
+    <etd:discipline lang="eng" >German Language and Literature (double major); specializations in: Teacher Training, Translation Studies</etd:discipline>
+    <etd:discipline type="smjer" >nastavnički</etd:discipline>
+    <etd:discipline type="smjer" lang="eng" >Teacher Training</etd:discipline>
+    <etd:name>magistar/magistra njemačkog jezika i književnosti</etd:name>
+    <etd:name type="abbreviation" >mag. philol. germ.</etd:name>
+    </etd:degree>
+    </extension>
+    <name type="personal" >
+    <role>
+    <roleTerm type="text" authority="marcrelator" >Thesis Advisor</roleTerm>
+    <roleTerm type="text" lang="hrv" >mentor</roleTerm>
+    </role>
+    <namePart type="given" >Višnja</namePart>
+    <namePart type="family" >Pavičić Takač</namePart>
+    <namePart type="termsOfAddress" >dr. sc. izv. prof.</namePart>
+    </name>
+    <name type="personal" >
+    <role>
+    <roleTerm>Committee Member</roleTerm>
+    <roleTerm lang="hrv" >predsjednik povjerenstva</roleTerm>
+    </role>
+    <namePart type="given" >Vesna</namePart>
+    <namePart type="family" >Bagarić Medve</namePart>
+    <namePart type="termsOfAddress" >dr. sc. izv. prof.</namePart>
+    </name>
+    <name type="personal" >
+    <role>
+    <roleTerm>Committee Member</roleTerm>
+    <roleTerm lang="hrv" >član povjerenstva</roleTerm>
+    </role>
+    <namePart type="given" >Višnja</namePart>
+    <namePart type="family" >Pavičić-Takač</namePart>
+    <namePart type="termsOfAddress" >dr. sc. prof.</namePart>
+    </name>
+    <genre>info:eu-repo/semantics/masterThesis</genre>
+    <genre lang="hrv" >diplomski rad</genre>
+    <genre lang="eng" >master's thesis</genre>
+    <genre authority="marcgt" >thesis</genre>
+    <typeOfResource>text</typeOfResource>
+    <accessCondition type="use and reproduction" >http://rightsstatements.org/vocab/InC/1.0/</accessCondition>
+    <accessCondition type="restriction on access" >openAccess</accessCondition>
+    <recordInfo>
+    <recordIdentifier>ffos:3527/mods:2019-05-15T11:32:08+02:00</recordIdentifier>
+    <recordCreationDate encoding="iso8601" >2018-06-04</recordCreationDate>
+    <recordContentSource authority="local" >ffos</recordContentSource>
+    <recordContentSource>FFOS-repozitorij</recordContentSource>
+    <recordChangeDate encoding="iso8601" >2019-05-15T11:32:08+02:00</recordChangeDate>
+    </recordInfo>
+    <identifier type="local" >ffos:3527</identifier>
+    <name type="personal" >
+    <namePart type="given" >Ivana</namePart>
+    <namePart type="family" >Džaja</namePart>
+    <role>
+    <roleTerm type="text" authority="marcrelator" >Data contributor</roleTerm>
+    <roleTerm type="text" lang="hrv" >urednik</roleTerm>
+    </role>
+    </name>
+    <physicalDescription>
+    <internetMediaType>application/pdf</internetMediaType>
+    <digitalOrigin>born digital</digitalOrigin>
+    <extent>540646</extent>
+    </physicalDescription>
+    <identifier type="isvu" >122#0122015261#46#08.07.2011.</identifier>
+    <name type="personal" >
+    <namePart type="given" >Hajdi</namePart>
+    <namePart type="family" >Ivanović</namePart>
+    <role>
+    <roleTerm type="text" >Data editor</roleTerm>
+    </role>
+    </name>
+    <name type="personal" >
+    <role>
+    <roleTerm>Committee Member</roleTerm>
+    <roleTerm lang="hrv" >član povjerenstva</roleTerm>
+    </role>
+    <namePart type="given" >Vlatka</namePart>
+    <namePart type="family" >Ivić</namePart>
+    <namePart type="termsOfAddress" >lekt.</namePart>
+    </name>
+    <location>
+    <url>https://urn.nsk.hr/urn:nbn:hr:142:103922</url>
+    </location>
+    <identifier type="urn" >urn:nbn:hr:142:103922</identifier>
+    <subject>
+    <topic>individualne razlike</topic>
+    </subject>
+    <subject>
+    <topic>strah od stranoga jezika</topic>
+    </subject>
+    <subject>
+    <topic>strah od slušanja</topic>
+    </subject>
+    <subject>
+    <topic>razumijevanje slušanoga teksta</topic>
+    </subject>
+    <subject>
+    <topic>uspjeh</topic>
+    </subject>
+    <subject>
+    <topic>engleski kao strani jezik.</topic>
+    </subject>
+    <subject lang="eng" >
+    <topic>individual differences</topic>
+    </subject>
+    <subject lang="eng" >
+    <topic>foreign language anxiety</topic>
+    </subject>
+    <subject lang="eng" >
+    <topic>listening anxiety</topic>
+    </subject>
+    <subject lang="eng" >
+    <topic>listening comprehension</topic>
+    </subject>
+    <subject lang="eng" >
+    <topic>success</topic>
+    </subject>
+    <subject lang="eng" >
+    <topic>English as a foreign language</topic>
+    </subject>
+    </mods>

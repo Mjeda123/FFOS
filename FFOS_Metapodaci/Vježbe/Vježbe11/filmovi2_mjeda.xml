@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<filmovi xmlns="http://oziz.ffos.hr/amjeda/filmovi" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation=" http://oziz.ffos.hr/amjeda/filmovi filmovi2_mjeda.xsd"> 
+ 
+
+<film žanr="sci-fi">
+    <naslov>Sedam samuraja</naslov>
+    <redatelj>Akira Kurosawa</redatelj> 
+    <godina>1953</godina> 
+    <scenarist>Akira Kurosawa</scenarist>
+    <scenarist>Akira Kurosawa</scenarist>
+    <zemlja>SAD</zemlja>
+</film>
+
+<film žanr="sci-fi">
+    <naslov>Ran</naslov>
+    <redatelj>Akira Kurasawa</redatelj> 
+    <godina>1985</godina> 
+    <scenarist>Akir Kurosawa</scenarist>
+    <scenarist>Akir Kurosawa</scenarist>
+    <zemlja>Francuska</zemlja>
+</film>
+ 
+
+
+</filmovi>

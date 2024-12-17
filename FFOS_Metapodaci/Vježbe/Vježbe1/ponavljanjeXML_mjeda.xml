@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+
+
+<!DOCTYPE pjesme SYSTEM "ponavljanjeXML_mjeda1.dtd">
+<pjesme>
+    <prva_pjesma>
+        <naziv>Smells like teen spirit</naziv>
+        <autor>Nirvana</autor>
+        <album>Nevermind</album>
+        <datum>1991</datum>
+        <datum_zapisa>
+           <dan>24</dan>
+           <mjesec naziv="rujan" />
+           <godina>1991</godina>
+        </datum_zapisa>
+
+
+    </prva_pjesma>
+
+    
+    
+    
+    <druga_pjesma>
+        <naziv>Smells like teen spirit</naziv>
+            <autor>Nirvana</autor>
+            <datum>1991</datum>
+        <godina>1991</godina>
+        <datum_zapisa>
+           <dan>24</dan>
+           <mjesec naziv="rujan" />
+           <godina>1991</godina>
+        </datum_zapisa>
+
+
+    </druga_pjesma>
+   
+    
+
+    
+
+
+
+
+
+
+
+</pjesme>
+ 
+
+
+ 

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<završni_rad xmlns:dc="http://purl.org/dc/elements/1.1/"     
+  xmlns:dcterms="http://purl.org/dc/terms/">
+
+ <dc:title>
+    Motivacija u sportu
+ </dc:title>
+ <dc:craetor>
+    Sonja Drventić
+ </dc:craetor>
+ <dc:subject xml:lang="hrv">DRUŠTVENE ZNANOSTI Psihologija</dc:subject>
+ <dc:subject>psihologija sporta</dc:subject>
+ <dc:subject>motivacija</dc:subject>
+ <dc:subject>teorija motivacije</dc:subject>
+ <dc:description>
+     Psihologija sporta se bavi velikim rasponom tema, odnosno istražuje sve probleme koje istražuju bazične grane psihologije, ali u specifičnim situacijama sporta i vježbanja. Uloga motivacije u sportu jedna je od bitnih tema sportske psihologije. Rad počinje s određenjem pojma motivacije i objašnjenjem podjele motiva te kratkim objašnjenjem povezanosti motivacije i sportskog uspjeha. Drugi dio rada prolazi kroz više teorija motivacije, koje s različitih stajališta daju odgovor što nas motivira...
+ </dc:description>
+ <dc:publisher xml:lang="hrv">Sveučilište Josipa Jurja Strossmayera u Osijeku. Odsjek za psihologiju.</dc:publisher>
+ <!-- polje mentor ne postoji u dc -->
+ <dc:contributor>Drenovac, Mirko</dc:contributor>
+ <dc:date>2010-07-06</dc:date>
+ <dc:type>info:eu-repo/semantics/bachelorThesis</dc:type>
+ <dc:type>text</dc:type>
+ <dc:format>application/pdf</dc:format>
+ <dc:identifier>ffos%3A3001</dc:identifier>
+ <dc:identifier>https://urn.nsk.hr/urn:nbn:hr:142:782749</dc:identifier>
+ <dc:language>hrv</dc:language>
+ <dc:rights>http://rightsstatements.org/vocab/InC/1.0/</dc:rights>
+ <dc:rights>info:eu-repo/semantics/openAccess</dc:rights>
+
+</završni_rad>

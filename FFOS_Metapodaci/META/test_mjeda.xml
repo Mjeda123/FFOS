@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pjesme xmlns="http://oziz.ffos.hr/amjeda/dc_xhtml/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+   	xsi:schemaLocation="http://oziz.ffos.hr/amjeda/dc_xhtml/ pjesme_mjeda.xsd">
+
+<pjesma>
+  <dc:title>Anthrocene</dc:title>
+  <dc:creator>Nick Cave and The Bad Seeds</dc:creator>
+  <dc:type>altrock</dc:type>
+  <dc:description>
+      When you turn so long and lovely, it's hard to believe
+      That we're falling now in the name of the Anthrocene
+   </dc:description>
+   <xhtml:img src="https://www.vinylchapters.com/wp-content/uploads/2019/10/nick-cave.jpg" alt="" title="Nick Cave and The Bad Seeds" />
+  <odabrao>Boris Bosančić</odabrao>
+</pjesma>
+</pjesme>

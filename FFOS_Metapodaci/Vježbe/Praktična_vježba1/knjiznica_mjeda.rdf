@@ -1,0 +1,71 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns:dc="http://purl.org/dc/elements/1.1"
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:dcam="http://purl.org/dc/dcam/"> 
+
+
+<!--Opis mrežne stranice gradske knjižnice Šibenik-->
+
+<rdf:Description rdf:about="http://www.knjiznica-sibenik.hr/">
+<dc:title>Gradska knjižnica Juraj Šižgorić Šibenik</dc:title>
+<dcterms:alternative>Gradska knjižnica Šibenik</dcterms:alternative>
+<dc:subject>gradska knjižnica, narodna knjižnica, Šibenik</dc:subject>
+
+<dc:description xml:lang="hr">Jedna od najvećih narodnih knjižnica u Hrvatskoj</dc:description>
+<dc:contributor>djelatnici Knjižnice</dc:contributor>
+<dc:format>68 Kbytes</dc:format>
+<dc:rights xml:lang="en">all rights reserved</dc:rights>
+<dcterms:audience>građani Šibensko-kninske županije</dcterms:audience>
+
+
+<!-- VES-->
+<dc:subject>
+<rdf:Description>
+<dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+<rdf:value>02</rdf:value>
+</rdf:Description>
+</dc:subject>
+
+
+<!-- SES znaci - sesovi moraju biti datatype, uvijek XSI-->
+<dc:identifier rdf:datatype="http://purl.org/dc/terms/URI"> 
+	 http://www.knjiznica-sibenik.hr/
+  </dc:identifier>
+
+
+<dcterms:modified rdf:datatype="http://purl.org/dc/terms/W3CDTF"> 
+		2021-11-25
+ </dcterms:modified>
+
+
+<dc:language rdf:datatype="http://purl.org/dc/terms/RFC1766"> 
+		hr
+ </dc:language>
+
+
+<dc:relation rdf:resource="http://www.gkzd.hr/" /> 
+
+
+</rdf:Description> 
+
+
+<!--Opis mreznih stranice gradske knjižnice Zadar-->
+<rdf:Description rdf:about="http://www.gkzd.hr/">
+ <dc:title>Gradska knjižnica Zadar</dc:title>
+ <dc:creator>Mladen Masar</dc:creator>
+ <dc:coverage rdf:resource="http://www.grad-zadar.hr/" />
+ </rdf:Description> 
+
+
+<!--Opis mreznih stranica grada Zadra-->
+<rdf:Description rdf:about="http://www.grad-zadar.hr/">
+ <dc:title>Mrežne stranice grada Zadra</dc:title>
+ <dcterms:issued>2001.</dcterms:issued>
+ </rdf:Description> 
+
+
+
+</rdf:RDF>
+
+<!--nemoj zaboraviti zatvoriti rdf, kopiras sve sto nije XSI:type
+Ponovno, pazi na SES i VES, pogledaj stranicu DCMI Metadata terms-->

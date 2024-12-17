@@ -1,0 +1,12 @@
+<!ELEMENT pjesme (prva_pjesma,druga_pjesma)>
+<!ELEMENT prva_pjesma (naziv,autor,album,datum,datum_zapisa)>
+<!ELEMENT naziv (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT album (#PCDATA)>
+<!ELEMENT datum (#PCDATA)>
+<!ELEMENT datum_zapisa (dan,mjesec,godina)>
+<!ELEMENT dan (#PCDATA)>
+<!ELEMENT mjesec EMPTY>
+<!ATTLIST mjesec naziv (Veljača|Rujan) #REQUIRED>
+<!ELEMENT godina (#PCDATA)>
+<!ELEMENT druga_pjesma (naziv,autor,datum,godina,datum_zapisa)>

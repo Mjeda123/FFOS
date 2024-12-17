@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zdr:zbirka xmlns:zdr="http://oziz.ffos.hr/amjeda/zdr_dc/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+    	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+   	xsi:schemaLocation="http://oziz.ffos.hr/amjeda/zdr_dc/ zdr_dc_B.xsd">
+
+<zdr:zapis>
+<dc:title>Programi poticanja čitanja u osnovnoškolskim knjižnicama</dc:title>
+  <dc:creator>Ana Bošnjak</dc:creator>
+  <dc:type>ms-word</dc:type>
+  <dc:identifier>https://repozitorij.ffos.hr/islandora/object/ffos%3A3635</dc:identifier>
+  <zdr:mentor>Kornelija Petr Balog</zdr:mentor>
+</zdr:zapis>
+</zdr:zbirka>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:dcterms="http://purl.org/dc/terms/">
+<dc:title>UKOLN | Metadata</dc:title>
+<dcterms:alternative>UK Office for Library and Information Networking</dcterms:alternative>
+<dc:creator>Andy Powell</dc:creator>
+<dc:subject xsi:type="dcterms:UDC">061(410)</dc:subject>
+<dc:publisher>University of Bath</dc:publisher>
+<dc:publisher xsi:type="dcterms:URL">http://www.bath.ac.uk/</dc:publisher>
+<dcterms:modified xsi:type="dcterms:W3CDTF">2013-01-13</dcterms:modified>
+<dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+<dc:format xsi:type="dcterms:IMT">text/html</dc:format>
+<dc:identifier xsi:type="dcterms:URL">http://www.ukoln.ac.uk/metadata</dc:identifier>
+<dc:source xsi:type="dcterms:URL">http://www.bath.ac.uk/ </dc:source>
+<dc:language>english</dc:language>
+<dc:coverage>Bath</dc:coverage>
+<dc:rights>© all rights reserved</dc:rights>
+
+</metadata> 

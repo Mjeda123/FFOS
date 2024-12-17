@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<filmovi xmlns="http://oziz.ffos.hr/nbarovic/filmovi" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://oziz.ffos.hr/nbarovic/filmovi filmovi2_barovic.xsd"> 
+
+
+<film žanr="sci-fi">
+    <Naslov>Odiseja u svemiru 2001</Naslov> 
+    <Redatelj>Stanley Kubrick</Redatelj> 
+    <Scenarist>Arthur C. Clarke</Scenarist> 
+    <Scenarist>Stanley Kubrick</Scenarist>
+    <godina>1968</godina>
+    <zemlja>SAD</zemlja>
+</film>
+
+<film žanr="sci-fi">
+    <Naslov>Matrix</Naslov> 
+    <Redatelj>Lana Wachowski</Redatelj> 
+    <Redatelj>Lilly Wachowski</Redatelj>
+    <Scenarist>Lana Wachowski</Scenarist>
+    <Scenarist>Lilly Wachowski</Scenarist>
+    <godina>1999</godina>
+    <zemlja>Australija</zemlja> 
+    <zemlja>SAD</zemlja> 
+</film>
+
+</filmovi>

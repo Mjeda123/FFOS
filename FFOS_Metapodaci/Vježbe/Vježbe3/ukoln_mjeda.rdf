@@ -1,0 +1,96 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns:dc="http://purl.org/dc/elements/1.1"
+xmlns:dcterms="http://purl.org/dc/terms/"
+xmlns:dcam="http://purl.org/dc/dcam/"> 
+
+
+<rdf:Description rdf:about="http://www.ukoln.ac.uk/metadata">
+
+
+   <dc:title>UKOLN | Metadata </dc:title>
+   <dc:creator>Andy Powell</dc:creator>
+   <dc:subject>metadata</dc:subject>
+   <dc:description xml:lang="en">This is the best page about metadata.</dc:description>
+   <dc:description xml:lang="hr">Ovo je najbolja stranica o metapodacima.</dc:description>
+   <dc:publisher>UKOLN</dc:publisher>
+
+
+   <!-- SES  -->
+   <!-- prošireni oblik, ne morate ga zmati na ispitu -->
+ 
+   <dc:identifier>
+     <rdf:Description>
+     <rdf:value rdf:datatype="http://purl.org/dc/terms/URI">2013-11-12</rdf:value>
+     http://www.ukoln.ac.uk/metadata 
+    </rdf:Description>
+   </dc:identifier>
+   <!-- skraćeni oblik, preporuka je da se koristi na ispitu-->
+   <dc:identifier rdf:datatype="http://purl.org/dc/terms/URI"> 
+		http://www.ukoln.ac.uk/metadata 
+   </dc:identifier>
+
+   <dc:source rdf:resource="http://www.ukoln.ac.uk/metadata"/>
+
+
+   <dc:source rdf:resource="http://purl.org/dc/terms/URI"> 
+		http://www.ukoln.ac.uk/metadata 
+   </dc:source>
+
+   <dc:relation rdf:datatype="http://purl.org/dc/terms/URI"> 
+		http://www.ukoln.ac.uk/metadata 
+   </dc:relation>
+
+   <dcterms:created rdf:datatype="http://purl.org/dc/terms/W3CDTF">
+     2001-01-15
+   </dcterms:created>
+
+   <dc:language rdf:datatype="http://purl.org/dc/terms/ISO639-2"> 
+		eng  
+   </dc:language>
+
+  <!-- VES-->
+  <!-- resursni izvor beu URI-ja, preporuka da se koristi na ispitu -->
+  <dc:subject>
+  <rdf:Description>
+  <dcam:memberOf rdf:resource="http://purl.org/dc/terms/UDC"/>
+  <rdf:value>061(041)</rdf:value>
+  </rdf:Description>
+  </dc:subject>
+  <!-- resurs bez URI-jem, ne preporuča se koristiti na ispitu -->
+  <dc:subject>
+   <rdf:Description rdf:about="http://www.udcsummary.info/php/ purl.org/dc/dcmitype/Text">
+   <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+   <rdf:value>Text</rdf:value>
+   </rdf:Description>
+  </dc:subject>
+
+ <dc:type>
+  <rdf:Description>
+  <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+  <rdf:value>text</rdf:value>
+  </rdf:Description>
+ </dc:type>
+
+  <dc:format>
+  <rdf:Description>
+  <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+  <rdf:value>text/xml</rdf:value>
+  </rdf:Description>
+  </dc:format>
+
+
+
+
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://www.ukoln.ac.uk/">
+<dc:title>University of Bath</dc:title>
+<dc:creator>Andy Powell</dc:creator>
+</rdf:Description> 
+
+
+
+
+</rdf:RDF>
+

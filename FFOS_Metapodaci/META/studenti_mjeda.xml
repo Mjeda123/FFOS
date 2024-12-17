@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<studenti xmlns="http://www.w3schools.com" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.w3schools.com studenti_mjeda.xsd"> 
+    <student>
+        <ime>Bernarda</ime>
+        <prezime>Bošnjak</prezime>
+        <odsjek>OZIZ</odsjek>
+    </student>
+
+    <student>
+        <ime>Andrej</ime>
+        <prezime>Mjeda</prezime>
+        <odsjek>OZIZ</odsjek>
+    </student>
+
+
+
+
+
+</studenti>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://oziz.ffos.hr/amjeda/filmovi" 
+xmlns="http://oziz.ffos.hr/amjeda/filmovi" 
+elementFormDefault="qualified"> 
+
+
+<xs:element name="filmovi"> 
+<xs:complexType> 
+<xs:sequence>
+
+    <xs:element name="film" maxOccurs="unbounded" >
+    <xs:complexType> 
+    <xs:sequence>
+
+        <xs:element name="naslov" type="xs:string"/> 
+        <xs:element name="redatelj" type="xs:string" maxOccurs="2"/>
+        <xs:element name="godina" type="xs:gYear"/>
+        <xs:element name="scenarist" type="xs:string" minOccurs="0" maxOccurs="20"/> 
+        
+        
+        <!--<xs:element name="zemlja" type="xs:string"/> -->
+        <xs:element name="zemlja" maxOccurs="2">
+ 	       <xs:simpleType> 
+		     <xs:restriction base="xs:string">
+ 			   <xs:enumeration value="SAD"/>
+		 	   <xs:enumeration value="Francuska"/>
+ 		     </xs:restriction> 
+	        </xs:simpleType>
+        </xs:element> 
+
+
+
+    </xs:sequence> 
+    <xs:attribute name="žanr"  use="required">
+         <xs:simpleType>
+              <xs:restriction base="xs:string">
+                   <xs:enumeration value="sci-fi"/>
+                   <xs:enumeration value="western"/>
+                   <xs:enumeration value="fiction"/>
+              </xs:restriction>
+         </xs:simpleType>
+    </xs:attribute>
+    </xs:complexType> 
+    </xs:element>
+
+
+
+</xs:sequence> 
+</xs:complexType> 
+</xs:element>
+
+
+<xs:element name="film"> 
+<xs:complexType> 
+<xs:sequence>
+
+    <xs:element name="film">
+    <xs:complexType> 
+    <xs:sequence>
+
+        <xs:element name="naslov" type="xs:string"/> 
+        <xs:element name="redatelj" type="xs:string" maxOccurs="2"/>
+        <xs:element name="godina" type="xs:gYear"/>
+        <xs:element name="scenarist" type="xs:string" minOccurs="0" maxOccurs="20"/> 
+        
+        
+        <!--<xs:element name="zemlja" type="xs:string"/> -->
+        <xs:element name="zemlja" maxOccurs="2">
+ 	       <xs:simpleType> 
+		     <xs:restriction base="xs:string">
+ 			   <xs:enumeration value="SAD"/>
+		 	   <xs:enumeration value="Francuska"/>
+ 		     </xs:restriction> 
+	        </xs:simpleType>
+        </xs:element> 
+
+
+
+    </xs:sequence> 
+    <xs:attribute name="žanr"  use="required">
+         <xs:simpleType>
+              <xs:restriction base="xs:string">
+                   <xs:enumeration value="sci-fi"/>
+                   <xs:enumeration value="western"/>
+                   <xs:enumeration value="fiction"/>
+              </xs:restriction>
+         </xs:simpleType>
+    </xs:attribute>
+    </xs:complexType> 
+    </xs:element>
+
+
+
+</xs:sequence> 
+</xs:complexType> 
+</xs:element>
+
+
+
+
+</xs:schema> 

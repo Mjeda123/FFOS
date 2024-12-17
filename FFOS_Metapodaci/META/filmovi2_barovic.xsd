@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://oziz.ffos.hr/nbarovic/filmovi" 
+xmlns="http://oziz.ffos.hr/nbarovic/filmovi" 
+elementFormDefault="qualified"> 
+
+
+
+
+<xs:element name="filmovi"> 
+<xs:complexType> 
+<xs:sequence>
+
+    <xs:element name="film" maxOccurs="unbounded"> 
+    <xs:complexType> 
+    <xs:sequence>
+
+        <xs:element name="Naslov" type="xs:string"/> 
+        <xs:element name="Redatelj" type="xs:string" maxOccurs="3"/>
+        <xs:element name="Scenarist" type="xs:string" minOccurs="0" maxOccurs="4"/>
+        <xs:element name="godina" type="xs:gYear" maxOccurs="4"/>
+
+        <!--    ovo smo zamjenili sa naprednijim elementom zemlja dolje    <xs:element name="zemlja" type="xs:string" maxOccurs="50"/> -->
+        
+        <xs:element name="zemlja" maxOccurs="5">
+ 	        <xs:simpleType> 
+		        <xs:restriction base="xs:string">
+                    <xs:enumeration value="SAD"/>
+                    <xs:enumeration value="Australija"/>
+                    <xs:enumeration value="Francuska"/>
+                </xs:restriction> 
+            </xs:simpleType>
+        </xs:element> 
+
+
+
+    </xs:sequence>
+
+            <!-- Ovdje ubacujemo atribut -->
+            <xs:attribute name="žanr" use="required">
+                <xs:simpleType>
+                     <xs:restriction base="xs:string">
+                          <xs:enumeration value="sci-fi"/>
+                          <xs:enumeration value="western"/>
+                          <xs:enumeration value="fiction"/>
+                     </xs:restriction>
+                </xs:simpleType>
+       </xs:attribute>
+       
+
+    </xs:complexType> 
+    </xs:element>
+
+</xs:sequence>
+</xs:complexType> 
+</xs:element>
+
+
+</xs:schema> 
+
+
+<!--OVAJ VALJA, OVO SMO RADILI NA PREDAVANJU-->

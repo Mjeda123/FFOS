@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<filmovi xmlns="http://www.w3schools.com" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.w3schools.com filmovi_mjeda.xsd"> 
+ 
+
+<film>
+    <naslov>Sedam samuraja</naslov>
+    <autor>Akira Kurosawa</autor> 
+    <kategorija>povijesni</kategorija> 
+</film>
+
+<film>
+    <naslov>Ran</naslov>
+    <autor>Akira Kurosawa</autor> 
+    <kategorija>povijesni</kategorija> 
+</film>
+ 
+
+
+</filmovi>

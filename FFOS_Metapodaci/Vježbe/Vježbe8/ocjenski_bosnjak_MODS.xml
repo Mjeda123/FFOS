@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<mods xmlns="http://www.loc.gov/mods/v3">
+
+
+    <titleInfo>
+        <title>
+            Programi poticanja čitanja u osnovnoškolskim knjižnicama
+        </title>
+    </titleInfo>
+
+
+    <name>
+        <namePart>Ana Bošnjak</namePart>
+            <role>
+                <roleTerm type="text">creator</roleTerm>
+                <roleTerm authority="marcrelator">Creator</roleTerm>
+            </role>
+    </name>
+         
+    
+    <subject>
+        <topic>čitanje iz užitka</topic>
+        <topic>školska knjižnica</topic>
+        <topic>knjižnični programi</topic>
+        <topic>poticanje čitanja</topic>
+    </subject>
+
+    <!--podaci o mentoru -->
+
+
+    <name>
+        <namePart>Kornelija Petr Balog</namePart>
+        <roleTerm authority="marcrelator">
+            Degree supervisor
+        </roleTerm>
+    </name>
+
+
+    <abstract>
+        Suvremena je školska knjižnica informacijsko, medijsko i komunikacijsko središte škole. Jedna je od temeljnih zadaća školske knjižnice razvijanje ljubavi prema prema knjizi i čitanju. Usađivanje ljubavi prema knjizi jedan je od preduvjeta za uspješna postignuća u učenju i razumijevanju, poticanju mašte i uživanje u čitanju. Mladog čitatelja čitanje pomaže pripremiti za život, pomaže mu u sazrijevanju i utječe na oblikovanje njegove osobnosti. Na izgradnju odnosa pojedinca prema knjizi utječu mnogi čimbenici. Neki su od njih obitelj, suvremeni mediji i obvezna školska lektira, koja često učenika odbija od knjige. U nastojanju da se odgoje ljubitelji knjige, organiziraju se raznovrsni programi poticanja čitanja – kvizovi, književni susreti, čitateljski klubovi, tribine, radionice kreativnog pisanja itd. Pri osmišljavanju i provođenju programa korisni su suradnja i timski rad školskog knjižničara, nastavnog osoblja, knjižničara narodnih knjižnica i sl. Rad donosi pregled nekoliko takvih programa – u Sjedinjenim Američkim Državama i u Hrvatskoj.
+    </abstract>
+
+
+    <originInfo>
+        <publisher>
+            Sveučilište Josipa Jurja Strossmayera u Osijeku.
+        </publisher>
+    </originInfo>
+
+
+
+
+</mods>

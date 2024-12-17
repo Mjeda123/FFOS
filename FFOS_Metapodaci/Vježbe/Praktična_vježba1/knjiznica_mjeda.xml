@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:dcterms="http://purl.org/dc/terms/">
+<dc:title>Gradska knjižnica "Juraj Šižgorić" Šibenik</dc:title>
+<dcterms:alternative>Gradska knjižnica Šibenik</dcterms:alternative>
+<dc:subject>gradska knjižnica, narodna knjižnica, Šibenik</dc:subject>
+<dc:subject xsi:type="dcterms:UDC">02</dc:subject>
+<dc:description xml:lang="hr">Jedna od najvećih narodnih knjižnica u Hrvatskoj</dc:description>
+<dc:contributor>djelatnici Knjižnice</dc:contributor>
+<dcterms:modified xsi:type="dcterms:W3CDTF">2021-11-25</dcterms:modified>
+<dc:format>68 Kbytes</dc:format>
+<dc:identifier xsi:type="dcterms:URI">http://www.knjiznica-sibenik.hr/</dc:identifier>
+<dc:language xsi:type="dcterms:RFC1766">hr</dc:language>
+<dc:relation xsi:type="dcterms:URI">http://www.gkzd.hr/</dc:relation>
+<dc:rights xml:lang="eng">all rights reserved</dc:rights>
+<dcterms:audience>građani Šibensko-kninske županije</dcterms:audience>
+
+</metadata>

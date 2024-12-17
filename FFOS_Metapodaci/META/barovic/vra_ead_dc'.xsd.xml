@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 1. dio: Imenski prostori (Namespaces) -->
+<xs:schema targetNamespace="http://oziz.ffos.hr/nbarovic/vra_ead_dc/"
+elementFormDefault="qualified"
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns:vra="http://www.vraweb.org/vracore4.htm"
+xmlns="http://oziz.ffos.hr/nbarovic/vra_ead_dc/">
+
+
+<!-- 2. dio: Anotacija -->
+
+
+<xs:annotation>
+    <xs:documentation xml:lang="en">
+      nbarovic VRA EAD DC container XML Schema.
+      Created 2022-01-20.
+      Created by Nikica Barovic.
+    </xs:documentation>
+  </xs:annotation>
+
+
+<!-- 3. dio: Uvoženje (import) drugih shema metapodataka -->
+<xs:import namespace="http://purl.org/dc/elements/1.1/"
+schemaLocation="https://dublincore.org/schemas/xmls/qdc/2003/04/02/dc.xsd"/>
+<xs:import namespace="urn:isbn:1-931666-22-9"
+schemaLocation="https://www.loc.gov/ead/ead.xsd"/>
+<xs:import namespace="http://www.vraweb.org/vracore4.htm"
+schemaLocation="https://www.loc.gov/standards/vracore/vra-strict.xsd"/>
+
+
+<!-- 4. dio: definiranje korijenskog elementa testne datoteke -->
+<xs:element name="library">
+  <xs:complexType>
+    <xs:sequence>
+       <xs:element ref="book" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+
+
+<!-- 5. dio: definiranje elementa koji "drži" zapise -->
+<xs:element name="book">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:any namespace="http://purl.org/dc/elements/1.1/" processContents="strict" 
+minOccurs="0" maxOccurs="unbounded"/>
+      <xs:any namespace="urn:isbn:1-931666-22-9" processContents="strict" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:any namespace="http://www.vraweb.org/vracore4.htm" processContents="strict" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="location" type="vra:locationTypeType" />
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

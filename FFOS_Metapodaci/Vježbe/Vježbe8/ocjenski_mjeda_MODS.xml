@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<mods xmlns="http://www.loc.gov/mods/v3">
+
+
+    <titleInfo>
+        <title>
+            Motivacija u sportu
+        </title>
+    </titleInfo>
+
+
+    <name>
+        <namePart>Sonja Drventić</namePart>
+            <role>
+                <roleTerm type="text">creator</roleTerm>
+                <roleTerm authority="marcrelator">Creator</roleTerm>
+            </role>
+    </name>
+         
+    
+    <subject>
+        <topic>psihologija sporta</topic>
+        <topic>motivacija</topic>
+        <topic>teorija motivacije</topic>
+    </subject>
+
+    <!--podaci o mentoru -->
+
+
+    <name>
+        <namePart>Mirko Drenovac</namePart>
+        <roleTerm authority="marcrelator">
+            Degree supervisor
+        </roleTerm>
+    </name>
+
+
+    <abstract>
+        Psihologija sporta se bavi velikim rasponom tema, odnosno istražuje sve probleme koje istražuju bazične grane psihologije, ali u specifičnim situacijama sporta i vježbanja. Uloga motivacije u sportu jedna je od bitnih tema sportske psihologije. Rad počinje s određenjem pojma motivacije i objašnjenjem podjele motiva te kratkim objašnjenjem povezanosti motivacije i sportskog uspjeha. Drugi dio rada prolazi kroz više teorija motivacije, koje s različitih stajališta daju odgovor što nas motivira...
+    </abstract>
+
+
+    <originInfo>
+        <publisher>
+            Sveučilište Josipa Jurja Strossmayera u Osijeku.
+        </publisher>
+    </originInfo>
+
+
+
+
+</mods>

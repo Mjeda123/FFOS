@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<katalog xmlns="http://oziz.ffos.hr/katalog" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://oziz.ffos.hr/katalog katalog_mjeda.xsd">
+
+<knjiga> 
+   <naslov>Odiseja u svemiru 2001.</naslov>
+   <autor>Arthur C. Clarke</autor> 
+   <kategorija>fantasy</kategorija> 
+   <ocjena>5</ocjena>
+</knjiga>
+
+<knjiga> 
+    <naslov>Majstor i Margarita</naslov>
+    <autor>Mihael Bulgakov</autor> 
+    <kategorija>classics</kategorija> 
+    <ocjena>5</ocjena> 
+</knjiga>
+
+</katalog>

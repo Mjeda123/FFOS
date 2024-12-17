@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:dcterms="http://purl.org/dc/terms/">
+<dc:title>Hrvatsko knjižničarsko društvo</dc:title>
+<dc:publisher>Croatian Library Association</dc:publisher>
+<dc:contributor>članovi Uredništva mrežnih stranica HKD-a</dc:contributor>
+<dc:date xsi:type="dcterms:W3CDTF">2000-01-01</dc:date>
+<dc:language xsi:type="dcterms:ISO639-3">eng</dc:language>
+<dcterms:audience>knjižničarima u RH</dcterms:audience>
+
+</metadata>

@@ -1,0 +1,2439 @@
+<?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet href='static/style.xsl' type='text/xsl'?><OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2021-12-23T13:31:01Z</responseDate><request verb="ListRecords" metadataPrefix="mods">https://clarin-pl.eu/oai/request</request><ListRecords><record><header><identifier>oai:clarin-pl.eu:11321/6</identifier><datestamp>2014-09-25T10:33:59Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Marcińczuk, Michał</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-25T10:33:59Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-25T10:33:59Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2007-09-17</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/6</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://creativecommons.org/licenses/by/3.0/</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">CC</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">Creative Commons - Attribution 3.0 Unported (CC BY 3.0)</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>CEN</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/7</identifier><datestamp>2016-01-19T14:04:26Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Piasecki, Maciej</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-25T11:37:59Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-25T11:37:59Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2012-04-18</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/7</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>Chunker WS</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/8</identifier><datestamp>2018-08-27T08:01:51Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Piasecki, Maciej</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-25T11:47:49Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-25T11:47:49Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2011-12-30</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/8</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://creativecommons.org/licenses/by/3.0/</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">CC</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">Creative Commons - Attribution 3.0 Unported (CC BY 3.0)</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>ChunkRel WS</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/9</identifier><datestamp>2016-01-21T14:40:03Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Kocoń, Jan</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-25T11:58:16Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-25T11:58:16Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2010-06-29</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/9</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:language>
+    <mods:languageTerm>eng</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>Corpus-SUCK</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/10</identifier><datestamp>2016-01-21T14:24:10Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Radziszewski, Adam</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Śniatowski, Tomasz</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-25T12:03:59Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-25T12:03:59Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2012-02-21</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/10</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>Corpus2</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/11</identifier><datestamp>2016-01-19T14:02:50Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Radziszewski, Adam</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-25T12:12:05Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-25T12:12:05Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2011</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/11</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>Disaster</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/12</identifier><datestamp>2016-01-21T14:33:12Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Piasecki, Maciej</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-25T12:16:49Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-25T12:16:49Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2012-10-09</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/12</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>Fextor</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/13</identifier><datestamp>2016-01-21T14:26:56Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Marcińczuk, Michał</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Kocoń, Jan</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Marcin, Ptak</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Kaczmarek, Adam</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-25T12:26:02Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-25T12:26:02Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2010-07-19</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/13</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>Inforex</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/14</identifier><datestamp>2014-09-25T13:07:29Z</datestamp><setSpec>hdl_11321_1</setSpec><setSpec>hdl_11321_2</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Walkowiak, Tomasz</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-25T13:07:29Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-25T13:07:29Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2014-09-25</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/14</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>WCRFT WebLichtService</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/15</identifier><datestamp>2014-09-30T13:07:50Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Radziszewski, Adam</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-26T10:22:34Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-26T10:22:34Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2012-04-18</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/15</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>IOBBER</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/16</identifier><datestamp>2017-11-08T09:25:02Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Maziarz, Marek</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Broda, Bartosz</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Marcińczuk, Michał</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Radziszewski, Adam</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-26T10:46:13Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-26T10:46:13Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2014-01-01</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/16</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://creativecommons.org/licenses/by/3.0/</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">CC</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">Creative Commons - Attribution 3.0 Unported (CC BY 3.0)</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>Polish Corpus of Wrocław University of Technology 1.1</mods:title>
+    </mods:titleInfo>
+    <mods:titleInfo>
+    <mods:title>Korpus Języka Polskiego Politechniki Wrocławskiej (KPWr) 1.1</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/17</identifier><datestamp>2016-01-21T14:34:52Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Radziszewski, Adam</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-26T10:53:27Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-26T10:53:27Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2014-01-01</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/17</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>KPWr-lemma</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/18</identifier><datestamp>2016-01-21T14:21:12Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Marcińczuk, Michał</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Kocoń, Jan</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Janicki, Maciej</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-26T11:01:54Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-26T11:01:54Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2011-12-12</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/18</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>Liner2</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/19</identifier><datestamp>2016-01-21T14:36:25Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Piasecki, Maciej</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Broda, Bartosz</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Szpakowicz, Stanisław</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-26T11:08:31Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-26T11:08:31Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2014-01-01</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/19</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>Lists of semantic relatedness</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/20</identifier><datestamp>2016-01-21T14:25:21Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Radziszewski, Adam</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Śniatowski, Tomasz</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-26T11:13:30Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-26T11:13:30Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2011-04-05</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/20</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>MACA</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/21</identifier><datestamp>2016-01-21T14:37:33Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Kocoń, Jan</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-26T11:21:02Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-26T11:21:02Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2012-04-04</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/21</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>NamEnSim</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/22</identifier><datestamp>2016-01-19T09:31:41Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Marcińczuk, Michał</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-26T11:26:36Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-26T11:26:36Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2012</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/22</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>NELexicon</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/24</identifier><datestamp>2016-01-21T14:33:43Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Kędzia, Paweł</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-26T12:09:25Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-26T12:09:25Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2014</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/24</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>RL-Button</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/25</identifier><datestamp>2014-09-26T13:20:24Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Radziszewski, Adam</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-26T13:20:24Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-26T13:20:24Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2011</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/25</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>WCRFT - Wrocław CRF Tagger</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/26</identifier><datestamp>2016-01-21T14:29:12Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Radziszewski, Adam</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-26T14:15:52Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-26T14:15:52Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2011-07-21</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/26</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>WMBT</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/27</identifier><datestamp>2016-01-19T13:31:50Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Janicki, Maciej</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Krautforst, Michał</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Marcińczuk, Michał</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-29T11:30:40Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-29T11:30:40Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2011-11-02</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/27</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>NER WS</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/28</identifier><datestamp>2016-01-19T13:29:50Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Marcińczuk, Michał</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-30T06:17:59Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-30T06:17:59Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2013-05-22</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/28</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>Serel (WS)</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/29</identifier><datestamp>2016-01-21T14:28:27Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Piasecki, Maciej</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Maziarz, Marek</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Marcińczuk, Michał</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Broda, Bartosz</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Kędzia, Paweł</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Kocoń, Jan</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Radziszewski, Adam</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Kaliński, Michał</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-30T06:34:36Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-30T06:34:36Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2010-07-01</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/29</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>WordNet</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/30</identifier><datestamp>2016-01-19T13:52:47Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Zawadzki, Maciej</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-30T06:45:29Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-30T06:45:29Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2010-08-09</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/30</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>Tagger WS</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/31</identifier><datestamp>2016-01-21T14:37:02Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Piasecki, Maciej</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Radziszewski, Adam</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Godlewski, Grzegorz</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Broda, Bartosz</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Wardyński, Adam</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-30T07:03:48Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-30T07:03:48Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2014</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/31</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>TaKIPI</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/32</identifier><datestamp>2016-01-21T14:14:38Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Radziszewski, Adam</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Śniatowski, Tomasz</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-30T07:23:43Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-30T07:23:43Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2010-08-11</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/32</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>Toki</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/33</identifier><datestamp>2016-01-19T13:34:22Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Piasecki, Maciej</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Broda, Bartosz</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Wndelberger, Michał</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Zawadzki, Maciej</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-30T07:33:16Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-30T07:33:16Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2014</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/33</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>Vector Extractor</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/34</identifier><datestamp>2016-01-21T14:35:40Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Radziszewski, Adam</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Wardyński, Adam</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Śniatowski, Tomasz</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-30T07:51:07Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-30T07:51:07Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2011-06-14</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/34</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>WCCL</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/35</identifier><datestamp>2016-01-21T14:15:26Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Radziszewski, Adam</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-30T08:00:29Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-30T08:00:29Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2012-06-20</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/35</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>WCRFT</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/36</identifier><datestamp>2016-01-21T14:22:06Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Radziszewski, Adam</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Warzocha, Radosław</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-30T08:11:05Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-30T08:11:05Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2014-05-19</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/36</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>WCRFT2</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header status="deleted"><identifier>oai:clarin-pl.eu:11321/37</identifier><datestamp>2016-06-06T11:06:27Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header></record><record><header><identifier>oai:clarin-pl.eu:11321/38</identifier><datestamp>2016-01-21T14:27:43Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Piasecki, Maciej</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Marcińczuk, Michał</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Ramocki, Radosław</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Maziarz, Marek</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Radziszewski, Adam</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Wardyński, Adam</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Kędzia, Paweł</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Naskręt, Tomasz</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-30T09:05:32Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-30T09:05:32Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2011-04-20</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/38</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>WordnetLoom</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/39</identifier><datestamp>2016-10-21T14:04:30Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Marcińczuk, Michał</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Piasecki, Dominik</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Piasecki, Maciej</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Radziszewski, Adam</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-30T12:41:31Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-30T12:41:31Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2013-09-24</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/39</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>Pytania i odpowiedzi z serwisu wikipedyjnego "Czy wiesz", wersja 1.1</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/40</identifier><datestamp>2016-01-21T14:17:51Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Kędzia, Paweł</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-30T12:48:52Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-30T12:48:52Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2012-06-18</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/40</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>LexCSD</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/41</identifier><datestamp>2016-01-19T13:55:50Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Ryśnik, Błażej</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-09-30T13:05:15Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-09-30T13:05:15Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2012-09-23</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/41</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:titleInfo>
+    <mods:title>Spartan</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header status="deleted"><identifier>oai:clarin-pl.eu:11321/43</identifier><datestamp>2016-09-16T09:24:10Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header></record><record><header><identifier>oai:clarin-pl.eu:11321/44</identifier><datestamp>2014-10-24T09:37:56Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Walkowiak, Tomasz</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-10-24T09:37:56Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-10-24T09:37:56Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2014-10-24</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/44</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:subject>
+    <mods:topic>tagger</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>weblicht</mods:topic>
+    </mods:subject>
+    <mods:titleInfo>
+    <mods:title>WCRFT Webservice</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/45</identifier><datestamp>2016-01-21T14:38:16Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Walkowiak, Tomasz</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-10-24T09:37:56Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-10-24T09:37:56Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2014-10-24</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/45</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:subject>
+    <mods:topic>tagger</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>weblicht</mods:topic>
+    </mods:subject>
+    <mods:titleInfo>
+    <mods:title>WCRFT Webservice (2014-10-24)</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/46</identifier><datestamp>2014-10-24T10:04:15Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Walkowiak, Tomasz</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-10-24T09:37:56Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-10-24T09:37:56Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2014-10-24</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/46</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:subject>
+    <mods:topic>tagger</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>weblicht</mods:topic>
+    </mods:subject>
+    <mods:titleInfo>
+    <mods:title>WCRFT Webservice (2014-10-24)</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/47</identifier><datestamp>2016-06-02T20:20:25Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Pęzik, Piotr</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-10-24T12:20:10Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-10-24T12:20:10Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2014-10-24</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/47</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://creativecommons.org/licenses/by-nc/3.0/</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">CC</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0)</mods:accessCondition>
+    <mods:subject>
+    <mods:topic>corpus search engine</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>conversational data</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>spoken conversational Polish</mods:topic>
+    </mods:subject>
+    <mods:titleInfo>
+    <mods:title>Spokes search engine for Polish conversational data</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/48</identifier><datestamp>2014-11-26T11:13:39Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Marcińczuk, Michał</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Krautforst, Michał</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Kocoń, Jan</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Piasecki, Dominik</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Janicki, Maciej</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2014-11-26T11:13:39Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2014-11-26T11:13:39Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2014-11-24</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/48</mods:identifier>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:subject>
+    <mods:topic>named entity recognition</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>text processing</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>text annotation</mods:topic>
+    </mods:subject>
+    <mods:titleInfo>
+    <mods:title>Liner2.4</mods:title>
+    </mods:titleInfo>
+    <mods:genre>toolService</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/50</identifier><datestamp>2015-01-29T15:14:58Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Bańka-Kowalczyk, Magdalena</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-01-29T10:51:46Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-01-29T10:51:46Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-01-22</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/50</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://creativecommons.org/licenses/by-nc-nd/3.0/</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">CC</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)</mods:accessCondition>
+    <mods:subject>
+    <mods:topic>International Women's Day</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>woman</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>champion of work</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>work competition</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>league of women</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>work</mods:topic>
+    </mods:subject>
+    <mods:titleInfo>
+    <mods:title>International Women's Day Corpus</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/49</identifier><datestamp>2017-06-28T20:25:25Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Bańka-Kowalczyk, Magdalena</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-01-29T10:48:21Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-01-29T10:48:21Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-01-27</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/49</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://creativecommons.org/licenses/by-nc-nd/3.0/</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">CC</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)</mods:accessCondition>
+    <mods:subject>
+    <mods:topic>International Women's Day</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>woman</mods:topic>
+    </mods:subject>
+    <mods:titleInfo>
+    <mods:title>The 8' th of March Corpus</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/57</identifier><datestamp>2015-04-02T08:22:10Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Eder, Maciej</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Rybicki, Jan</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-02T08:22:10Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-02T08:22:10Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-03-18</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/57</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://creativecommons.org/licenses/by/3.0/</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">CC</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">Creative Commons - Attribution 3.0 Unported (CC BY 3.0)</mods:accessCondition>
+    <mods:subject>
+    <mods:topic>prose</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>novel</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>literature</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>19th-century novels</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>20th-century novels</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>positivism in Poland</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>proza</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>powieść</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>literatura</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>powieść XIX-wieczna</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>powieść XX-wieczna</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>pozytywizm w Polsce</mods:topic>
+    </mods:subject>
+    <mods:titleInfo>
+    <mods:title>Late 19th- and Early 20th-Century Polish Novels</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/54</identifier><datestamp>2015-04-10T08:57:49Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Oleksy, Marcin</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-01T10:54:08Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-01T10:54:08Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-01</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/54</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://creativecommons.org/licenses/by/3.0/</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">CC</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">Creative Commons - Attribution 3.0 Unported (CC BY 3.0)</mods:accessCondition>
+    <mods:subject>
+    <mods:topic>story</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>tale</mods:topic>
+    </mods:subject>
+    <mods:subject>
+    <mods:topic>news</mods:topic>
+    </mods:subject>
+    <mods:titleInfo>
+    <mods:title>Open license texts sample</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header status="deleted"><identifier>oai:clarin-pl.eu:11321/52</identifier><datestamp>2016-01-19T13:42:05Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header></record><record><header status="deleted"><identifier>oai:clarin-pl.eu:11321/53</identifier><datestamp>2016-02-23T11:25:14Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header></record><record><header><identifier>oai:clarin-pl.eu:11321/55</identifier><datestamp>2015-04-23T07:13:26Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Wikipedia, Wiki Pedia</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-01T11:04:17Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-01T11:04:17Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-01</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/55</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>Tygrys i 2 WŚ</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header status="deleted"><identifier>oai:clarin-pl.eu:11321/56</identifier><datestamp>2016-01-19T13:52:02Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header></record><record><header><identifier>oai:clarin-pl.eu:11321/58</identifier><datestamp>2015-04-13T08:10:42Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Pisarze, Pisarze</mods:namePart>
+    </mods:name>
+    <mods:name>
+    <mods:namePart>Pisarze, Pisarze</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-07T10:48:57Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-07T10:48:57Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-07</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/58</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>Stylo</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/59</identifier><datestamp>2018-04-10T14:28:42Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Żeromski, Stefan Żeromski</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-07T15:08:23Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-07T15:08:23Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-07</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/59</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>Żeromski</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/60</identifier><datestamp>2015-06-18T10:54:05Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Prus, Bolesław Prus</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-07T15:09:55Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-07T15:09:55Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-07</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/60</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>Faraon</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/61</identifier><datestamp>2015-04-07T15:18:32Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Pisarze, Pisarze</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-07T15:18:32Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-07T15:18:32Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-07</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/61</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>Sample20</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/62</identifier><datestamp>2016-01-26T11:09:17Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Kocoń, Jan</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T11:08:22Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T11:08:22Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/62</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>Sample workshop corpus</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header status="deleted"><identifier>oai:clarin-pl.eu:11321/63</identifier><datestamp>2016-01-27T13:53:00Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header></record><record><header status="deleted"><identifier>oai:clarin-pl.eu:11321/164</identifier><datestamp>2016-01-26T08:37:00Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header></record><record><header status="deleted"><identifier>oai:clarin-pl.eu:11321/64</identifier><datestamp>2016-01-26T13:40:48Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header></record><record><header status="deleted"><identifier>oai:clarin-pl.eu:11321/65</identifier><datestamp>2016-01-26T13:41:13Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header></record><record><header><identifier>oai:clarin-pl.eu:11321/66</identifier><datestamp>2015-05-19T13:40:52Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Bałucki, Bałucki</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:12:04Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:12:04Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/66</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Bałucki</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/67</identifier><datestamp>2015-04-14T12:53:48Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Beczkowska, Beczkowska</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:13:23Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:13:23Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/67</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Beczkowska</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/68</identifier><datestamp>2015-05-19T13:33:39Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Berent, Berent</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:14:32Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:14:32Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/68</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Berent</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/69</identifier><datestamp>2015-05-19T13:34:59Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Dabrowska, Dabrowska</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:15:20Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:15:20Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/69</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Dabrowska</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/70</identifier><datestamp>2015-04-14T12:56:18Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Deotyma, Deotyma</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:16:14Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:16:14Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/70</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Deotyma</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/71</identifier><datestamp>2015-04-14T19:36:39Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Dmochowska, Dmochowska</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:17:13Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:17:13Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/71</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Dmochowska</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/72</identifier><datestamp>2015-04-14T12:55:08Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Domańska, Domańska</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:18:09Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:18:09Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/72</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Domańska</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/73</identifier><datestamp>2015-04-14T12:55:36Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Dygasiński, Dygasiński</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:19:15Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:19:15Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/73</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Dygasiński</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/74</identifier><datestamp>2015-05-19T13:36:46Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Godlewska, Godlewska</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:20:05Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:20:05Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/74</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Godlewska</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/75</identifier><datestamp>2015-05-19T13:38:21Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Gojawiczyńska, Gojawiczyńska</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:21:41Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:21:41Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/75</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Gojawiczyńska</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/76</identifier><datestamp>2015-04-10T20:27:52Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Iwaszkiewicz, Iwaszkiewicz</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:22:26Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:22:26Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/76</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Iwaszkiewicz</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/77</identifier><datestamp>2017-02-04T13:47:43Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Kaczkowski, Kaczkowski</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:23:09Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:23:09Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/77</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Kaczkowski</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/78</identifier><datestamp>2015-05-19T13:35:20Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Korzeniowski, Korzeniowski</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:23:54Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:23:54Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/78</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Korzeniowski</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/79</identifier><datestamp>2015-05-21T12:06:17Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Kossak, Kossak</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:24:33Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:24:33Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/79</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Kossak</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/80</identifier><datestamp>2015-04-14T12:55:11Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Kraszewski, Kraszewski</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:25:35Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:25:35Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/80</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Kraszewski</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/81</identifier><datestamp>2015-06-08T10:37:01Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Krzemieniecka, Krzemieniecka</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:26:19Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:26:19Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/81</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Krzemieniecka</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/82</identifier><datestamp>2015-05-19T13:38:55Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Kuncewiczowa, Kuncewiczowa</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:27:11Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:27:11Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/82</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Kuncewiczowa</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/83</identifier><datestamp>2015-05-19T13:39:35Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Makuszyński, Makuszyński</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:28:24Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:28:24Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/83</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Makuszyński</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/84</identifier><datestamp>2015-05-21T12:03:38Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Marrene, Marrene</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:29:46Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:29:46Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/84</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Marrene</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/85</identifier><datestamp>2015-05-19T13:28:54Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Mniszek, Mniszek</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:30:25Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:30:25Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/85</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Mniszek</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/86</identifier><datestamp>2015-05-19T13:40:13Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Mostowicz, Mostowicz</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:31:17Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:31:17Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/86</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Mostowicz</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/87</identifier><datestamp>2015-04-10T21:06:41Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Nałkowska, Nałkowska</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:32:02Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:32:02Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/87</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Nałkowska</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/88</identifier><datestamp>2015-04-14T13:00:33Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Orzeszkowa, Orzeszkowa</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:32:41Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:32:41Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/88</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Orzeszkowa</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/89</identifier><datestamp>2015-06-07T12:48:05Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Prus, Prus</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:33:33Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:33:33Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/89</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Prus</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/90</identifier><datestamp>2015-04-14T12:59:43Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Reymont, Reymont</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:34:17Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:34:17Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/90</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Reymont</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/91</identifier><datestamp>2017-05-30T14:20:59Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Rodziewicz, Rodziewicz</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:35:30Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:35:30Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/91</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Rodziewicz</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/92</identifier><datestamp>2015-04-14T12:55:39Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Sienkiewicz, Sienkiewicz</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:36:23Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:36:23Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/92</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Sienkiewicz</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/93</identifier><datestamp>2015-05-19T13:44:26Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Świętochowski, Świętochowski</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:37:17Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:37:17Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/93</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Świętochowski</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/94</identifier><datestamp>2015-04-08T13:38:09Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Sygietyński, Sygietyński</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:38:09Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:38:09Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/94</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Sygietyński</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/95</identifier><datestamp>2015-04-08T13:38:48Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Zapolska, Zapolska</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:38:48Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:38:48Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/95</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Zapolska</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/96</identifier><datestamp>2015-04-08T13:41:07Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Zarzycka, Zarzycka</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:41:07Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:41:07Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/96</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Zarzycka</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/97</identifier><datestamp>2015-05-19T13:33:42Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Żeromski, Żeromski</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:41:57Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:41:57Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/97</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Żeromski</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/98</identifier><datestamp>2015-04-08T13:43:25Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Żuławski, Żuławski</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:43:25Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:43:25Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/98</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Żuławski</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/99</identifier><datestamp>2015-04-08T13:51:22Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Dabrowska, Dabrowska, Kaczkowski, Prus, Reymont, Sienkiewicz, Mniszek Kaczkowski, Prus, Reymont, Sienkiewicz, Mniszek</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:51:22Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:51:22Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/99</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE 10 Największych</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/100</identifier><datestamp>2015-04-08T13:57:45Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Pisarze, Pisarze</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T13:57:45Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T13:57:45Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/100</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Wiek XIX</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/101</identifier><datestamp>2015-06-08T10:53:34Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Pisarze, Pisarze</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T14:01:01Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T14:01:01Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/101</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Wiek XX</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/102</identifier><datestamp>2015-04-08T14:04:43Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Dabrowska, Dabrowska</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T14:04:43Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T14:04:43Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/102</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Dabrowska, Noce i dnie, Tom 3</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/103</identifier><datestamp>2015-04-08T14:05:57Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Kaczkowski, Kaczkowski</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T14:05:57Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T14:05:57Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/103</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Kaczkowski, Grób Nieczui, Tom 1</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/104</identifier><datestamp>2015-04-08T14:07:02Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Kaczkowski, Kaczkowski</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T14:07:02Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T14:07:02Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/104</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Kaczkowski, Olbrachtowi Rycerze, Tom 1</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/105</identifier><datestamp>2015-04-08T14:08:10Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Mniszek, Mniszek</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T14:08:10Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T14:08:10Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/105</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Mniszek, Gehenna czyli dzieje nieszczęśliwej miłości, Część pierwsza, Na szynach</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/106</identifier><datestamp>2015-04-08T14:09:43Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Prus, Prus</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T14:09:43Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T14:09:43Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/106</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Prus, Emancypantki, Tom 1</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><record><header><identifier>oai:clarin-pl.eu:11321/107</identifier><datestamp>2015-05-21T14:45:25Z</datestamp><setSpec>hdl_11321_3</setSpec><setSpec>hdl_11321_4</setSpec></header><metadata><mods:mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:doc="http://www.lyncode.com/xoai" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-1.xsd">
+    <mods:name>
+    <mods:namePart>Prus, Prus</mods:namePart>
+    </mods:name>
+    <mods:extension>
+    <mods:dateAvailable encoding="iso8601">2015-04-08T14:10:56Z</mods:dateAvailable>
+    </mods:extension>
+    <mods:extension>
+    <mods:dateAccessioned encoding="iso8601">2015-04-08T14:10:56Z</mods:dateAccessioned>
+    </mods:extension>
+    <mods:originInfo>
+    <mods:dateIssued encoding="iso8601">2015-04-08</mods:dateIssued>
+    </mods:originInfo>
+    <mods:identifier type="uri">http://hdl.handle.net/11321/107</mods:identifier>
+    <mods:language>
+    <mods:languageTerm>pol</mods:languageTerm>
+    </mods:language>
+    <mods:accessCondition type="useAndReproduction">http://www.gnu.org/licenses/lgpl.html</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">PUB</mods:accessCondition>
+    <mods:accessCondition type="useAndReproduction">GNU LGPL 3.0</mods:accessCondition>
+    <mods:titleInfo>
+    <mods:title>MWE Prus, Faraon</mods:title>
+    </mods:titleInfo>
+    <mods:genre>corpus</mods:genre>
+    </mods:mods>
+    </metadata></record><resumptionToken completeListSize="654" cursor="0">mods////100</resumptionToken></ListRecords></OAI-PMH>
+    

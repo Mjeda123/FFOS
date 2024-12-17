@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 1. dio: Imenski prostori (Namespaces) -->
+<xs:schema targetNamespace="http://oziz.ffos.hr/amjeda/dc_xhtml/"
+elementFormDefault="qualified"
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns="http://oziz.ffos.hr/amjeda/dc_xhtml/">
+
+<!-- 2. dio: Anotacija -->
+<xs:annotation>
+    <xs:documentation xml:lang="en">
+      amjeda DC XHTML container XML Schema.
+      Created 2022-01-27.
+      Created by Andrej Mjeda.
+    </xs:documentation>
+  </xs:annotation>
+
+  <!-- 3. dio: Uvoženje (import) drugih shema metapodataka -->
+  <xs:import namespace="http://purl.org/dc/elements/1.1/"         
+  schemaLocation="https://dublincore.org/schemas/xmls/qdc/2003/04/02/dc.xsd" />
+  <xs:import namespace="http://www.w3.org/1999/xhtml"         
+  schemaLocation="https://www.w3.org/2002/08/xhtml/xhtml1-transitional.xsd " />
+
+
+  <!-- 4. dio: definiranje korijenskog elementa testne datoteke -->
+<xs:element name="pjesme">
+    <xs:complexType>
+      <xs:sequence>
+          <xs:element ref="pjesma" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <!-- 5. dio: definiranje elementa koji "drži" zapise -->
+<xs:element name="pjesma">
+    <xs:complexType>
+      <xs:sequence>
+          <xs:any namespace="http://purl.org/dc/elements/1.1/" 
+          processContents="strict" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:any namespace="http://www.w3.org/1999/xhtml" 
+          processContents="strict" minOccurs="0" maxOccurs="unbounded"/>
+          <xs:element name="odabrao" type="xs:string" />
+       </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  </xs:schema>

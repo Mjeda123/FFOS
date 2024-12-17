@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 1. dio: Imenski prostori (Namespaces) -->
+<xs:schema targetNamespace="http://oziz.ffos.hr/amjeda/zdr_dc/"
+elementFormDefault="qualified"
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+xmlns="http://oziz.ffos.hr/amjeda/zdr_dc/">
+
+
+<!-- 2. dio: Anotacija -->
+<xs:annotation>
+    <xs:documentation xml:lang="en">
+      bbosancic ZDR DC container XML Schema.
+      Created 2022-01-20.
+      Created by Andrej Mjeda.
+    </xs:documentation>
+  </xs:annotation>
+
+
+  <!-- 3. dio: Uvoženje (import) drugih shema metapodataka -->
+  <xs:import namespace="http://purl.org/dc/elements/1.1/"         
+             schemaLocation="https://dublincore.org/schemas/xmls/qdc/2003/04/02/dc.xsd" />
+  <xs:import namespace="http://purl.org/bbosancic/zdrterms/"
+             schemaLocation="https://sokrat.ffos.hr/oziz/vjezbe/zdrterms.xsd" />
+
+
+
+<!-- 4. dio: definiranje korijenskog elementa testne datoteke -->
+<xs:element name="zbirka">
+  <xs:complexType>
+    <xs:sequence>
+       <xs:element ref="zapis" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+
+<!-- 5. dio: definiranje elementa koji "drži" zapise -->
+<xs:element name="zapis">
+  <xs:complexType>
+    <xs:sequence>
+        <xs:any namespace="http://purl.org/dc/elements/1.1/" processContents="strict" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:any namespace="http://purl.org/bbosancic/zdrterms/" processContents="strict" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:schema>

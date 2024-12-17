@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://oziz.ffos.hr/katalog" 
+xmlns="http://www.w3schools.com" 
+elementFormDefault="qualified"> 
+
+<xs:element name="katalog"> 
+<xs:complexType> 
+<xs:sequence>
+
+    <xs:element name="knjiga" maxOccurs="unbounded" >
+    <xs:complexType> 
+    <xs:sequence>
+
+        <xs:element name="naslov" type="xs:string"/> 
+        <xs:element name="autor" maxOccurs="3" type="xs:string"/>
+
+        <xs:element name="kategorija" minOccurs="0">
+ 	       <xs:simpleType> 
+		       <xs:restriction base="xs:string">
+ 			     <xs:enumeration value="fantasy"/>
+		 	     <xs:enumeration value="classics"/>
+ 		       </xs:restriction> 
+	        </xs:simpleType>
+          </xs:element> 
+
+
+        <xs:element name="ocjena" minOccurs="0">
+ 	       <xs:simpleType> 
+		      <xs:restriction base="xs:string">
+ 			      <xs:enumeration value="1"/>
+		 	      <xs:enumeration value="2"/>
+                  <xs:enumeration value="3"/>
+                  <xs:enumeration value="4"/>
+                  <xs:enumeration value="5"/>
+ 		      </xs:restriction> 
+	      </xs:simpleType>
+        </xs:element> 
+
+
+        
+    
+    
+    </xs:sequence> 
+    </xs:complexType> 
+    </xs:element>
+
+
+
+</xs:sequence> 
+</xs:complexType> 
+</xs:element>
+
+
+</xs:schema> 
